@@ -22,8 +22,9 @@ rule the checker flags counts against precision even when the finding is defensi
 Every remaining false positive sits on copy that is genuinely non-compliant
 (brief-example, bonus-offer, buried-warning) where extra findings are arguable. The
 cases that exist specifically to punish over-flagging, compliant-banner and
-tiered-spread-carveout, both come back completely clean, which is the result that
-actually matters for trustworthiness.
+tiered-spread-carveout, both came back clean on this run, which is the result that
+actually matters for trustworthiness. See "Run-to-run variance" below before treating
+that as a guarantee.
 
 What this harness caught, in order
 ----------------------------------
@@ -86,3 +87,21 @@ Cache reads bill at ~0.1x input and the write at ~1.25x, so this pays for itself
 on the second check and cuts input cost roughly 90% thereafter. An eval run (8
 checks), a revision loop (up to 4 screens), and any UI session all clear that bar
 easily; a single one-off check does not, and pays a 25% premium instead.
+
+
+Run-to-run variance
+-------------------
+The table above is ONE run. Re-running the byte-identical fixtures against the same model
+later produced:
+
+    gate accuracy: 8/8
+    precision: 0.35   recall: 0.86   (tp=6 fp=11 fn=1)
+
+against the recorded 0.41 / 1.00. The gate was 8/8 both times; the tiered-spread carve-out
+probe was clean on the first run and drew one false positive on the second.
+
+Nothing changed between the two runs: same cases, same labels, same rulebook, same model.
+The spread is the model's own non-determinism. Two consequences worth being explicit about.
+First, do not expect to reproduce the recorded figures. Second, eight cases cannot separate
+a real prompt improvement from this much noise, which is the concrete reason the eval needs
+to be larger before any of these numbers should drive a decision.

@@ -136,8 +136,8 @@ eval harness can answer this empirically. Over the same 8 cases, Opus 5 scored p
 cost of letting two expected violations through. **That is the wrong trade for compliance.**
 A missed violation is regulatory exposure; a spurious one costs a reviewer ten seconds
 dismissing a card. Recall is the metric to protect, and Sonnet 5 is also cheaper ($3/$15 per
-Mtok vs $5/$25). Caveat stated plainly: one run, eight cases, two non-deterministic models , 
-the gap is within what noise alone could produce. It is directional evidence that the pricier
+Mtok vs $5/$25). Caveat stated plainly: one run, eight cases, two non-deterministic models.
+The gap is within what noise alone could produce. It is directional evidence that the pricier
 model is not automatically better here, not a measured ranking. Rerun it yourself with
 `COMPLAI_MODEL=claude-opus-5 python -m evals.run_eval`.
 
@@ -197,10 +197,17 @@ labelled examples instead of against an impression.
 Precision is a lower bound because the labels list only each case's *headline*
 violations; any additional rule the checker flags counts against it even when
 defensible. Every remaining false positive sits on copy that is genuinely
-non-compliant. The two cases built specifically to punish over-flagging , 
-`compliant-banner` and `tiered-spread-carveout`, both return completely clean, which
-is the result that matters. **A compliance agent that never says "clean" is worthless,
-because reviewers learn to ignore it.**
+non-compliant. The two cases that exist specifically to punish over-flagging are
+`compliant-banner` and `tiered-spread-carveout`. **A compliance agent that never says
+"clean" is worthless, because reviewers learn to ignore it**, so those two matter more
+than the headline score.
+
+Both came back clean on the recorded run. They do not do so every run: a later re-run of
+the identical fixtures scored 0.35 / 0.86 and flagged one false positive on the
+tiered-spread case. Same inputs, same labels, same model, different answer. That is worth
+stating rather than hiding, because it sets the right expectation: these numbers are one
+sample from a non-deterministic system, not a fixed property of it. Reproducing the exact
+figures below is not expected.
 
 **Who wrote the labels, and why it matters.** The principle a harness like this should
 follow is that a generated label is not evidence: if a model writes both the answer and the
