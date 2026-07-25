@@ -106,10 +106,22 @@ paraphrase mandated risk warnings — the exact text is the requirement.
 2. Where a claim cannot be made compliantly, DELETE it. A hedged version of a prohibited \
 promise is still a prohibited promise, and hedging into meaninglessness is worse copy than \
 cutting.
-3. Do not add claims, figures, or percentages that were not in the original. If a rule \
-requires a provider-specific number you do not have, use the standard variant of the warning \
-that does not require one.
-4. Keep the format and length plausible for the original medium.
+3. NEVER emit a template placeholder. Regulatory texts contain fill-in markers such as \
+"[insert percentage per provider]%" — these are instructions to the drafter, not text to \
+publish. Copy delivered with a placeholder still in it is not compliant; it is unfinished.
+4. Do not invent claims, figures, or percentages that were not in the original. You do not \
+know this firm's loss percentage, so do NOT guess one and do NOT leave a placeholder. When a \
+warning would need a provider-specific number you were not given, use the standard variant \
+verbatim instead, which needs no number:
+
+   "CFDs are complex instruments and come with a high risk of losing money rapidly due to \
+leverage. The vast majority of retail investor accounts lose money when trading CFDs. You \
+should consider whether you understand how CFDs work and whether you can afford to take the \
+high risk of losing your money."
+
+   If the original copy already stated a real percentage, keep that number and use the \
+provider-specific variant.
+5. Keep the format and length plausible for the original medium.
 
 Return only the rewritten text.
 """

@@ -41,7 +41,22 @@ def test_screen_prompt_includes_counter_examples():
     rules = [_rule("R1", counter_example="tiered fee discounts are not caught")]
     fake = FakeLLM([{"verdicts": []}])
     screen("text", rules, fake)
-    assert "tiered fee discounts are not caught" in fake.calls[0]["user"]
+    call = fake.calls[0]
+    prompt = (call["cache_prefix"] or "") + call["user"]
+    assert "tiered fee discounts are not caught" in prompt
+
+
+def test_screen_caches_the_rulebook_and_leaves_the_submission_uncached():
+    """The rulebook is identical on every check and is ~5k tokens; the submitted
+    text differs every time. Caching is a prefix match, so they must not share
+    a block — otherwise each submission writes a distinct entry and nothing hits."""
+    rules = [_rule("R1"), _rule("R2")]
+    fake = FakeLLM([{"verdicts": []}])
+    screen("get rich tomorrow", rules, fake)
+    call = fake.calls[0]
+    assert "RULEBOOK" in call["cache_prefix"]
+    assert "get rich tomorrow" not in call["cache_prefix"]
+    assert "get rich tomorrow" in call["user"]
 
 def test_verify_confirms_a_violation():
     rule = _rule("R1")

@@ -70,8 +70,8 @@ def screen(text: str, rules: list[Rule], llm: LLMClient) -> list[Verdict]:
     rulebook = "\n\n".join(_render_rule(r) for r in rules)
     payload = llm.structured(
         system=SCREEN_SYSTEM,
+        cache_prefix=f"# RULEBOOK ({len(rules)} rules)\n\n{rulebook}",
         user=(
-            f"# RULEBOOK ({len(rules)} rules)\n\n{rulebook}\n\n"
             f"# SUBMITTED COMMUNICATION\n\n---\n{text}\n---\n\n"
             f"Return one verdict per rule, {len(rules)} in total."
         ),
