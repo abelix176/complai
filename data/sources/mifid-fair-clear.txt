@@ -1,0 +1,41 @@
+PROVENANCE
+Source: Directive 2014/65/EU of the European Parliament and of the Council of
+15 May 2014 on markets in financial instruments (MiFID II); and Commission
+Delegated Regulation (EU) 2017/565 of 25 April 2016 supplementing Directive
+2014/65/EU as regards organisational requirements and operating conditions
+for investment firms (MiFID II Delegated Regulation).
+EUR-Lex URLs:
+  https://eur-lex.europa.eu/eli/dir/2014/65/oj
+  https://eur-lex.europa.eu/eli/reg_del/2017/565/oj
+Retrieved: 2026-07-25
+Note: curated extract of the operative provisions relevant to marketing
+communications, not a full reproduction of either instrument.
+
+---
+
+MiFID II, Directive 2014/65/EU, Article 24(3) (verbatim):
+
+"All information, including marketing communications, addressed by the
+investment firm to clients or potential clients shall be fair, clear and
+not misleading. Marketing communications shall be clearly identifiable as
+such."
+
+---
+
+Commission Delegated Regulation (EU) 2017/565, Article 44(2) (verbatim,
+selected sub-points):
+
+Note: the information referred to is that covered by Article 44(1) -
+"all information [investment firms] address to, or disseminate in such a
+way that it is likely to be received by, retail or professional clients or
+potential retail or professional clients, including marketing
+communications."
+
+Article 44(2)(b):
+"the information is accurate and always gives a fair and prominent
+indication of any relevant risks when referencing any potential benefits
+of an investment service or financial instrument"
+
+Article 44(2)(e):
+"the information does not disguise, diminish or obscure important items,
+statements or warnings"
