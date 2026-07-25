@@ -1,0 +1,122 @@
+# Ground truth for the compliance checker.
+#
+# These labels are HAND-AUTHORED, deliberately. The showcase corpus in
+# data/samples/ was model-generated because it is only demo input, but if a model
+# also wrote the expected answers here, the harness would measure agreement
+# between two model outputs rather than correctness — and it would agree with
+# itself most reliably in exactly the cases where it is confidently wrong.
+#
+# `expect_violations` holds RULE-ID PREFIXES. An earlier version used fuzzy
+# semantic tags matched against rule titles; that silently scored against the
+# WRONG rule -- "prohibited_incentive_bonus" matched the tiered-spread carve-out,
+# whose title contains "not prohibited incentives". Prefixes are exact. The cost
+# is that re-running extraction can renumber rules and require updating this file;
+# that is the right trade, because a harness that mis-attributes matches reports
+# confident numbers about nothing.
+
+- id: brief-example
+  text: "Install our app and get rich tomorrow 🚀🚀🚀"
+  expect_input_type: marketing_communication
+  expect_violations: [CYSEC-PS0419-RW-001, CYSEC-PS0419-MISLEAD-001, MIFID-FCM-001]
+  expect_clean: false
+  note: >
+    The assignment's own example. Must catch all three dimensions: no risk
+    warning, an unrealistic return promise, and hype/urgency signalling.
+
+- id: compliant-banner
+  text: |
+    Trade CFDs on 3,000+ markets with tight spreads.
+    CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage.
+    76% of retail investor accounts lose money when trading CFDs with this provider.
+    You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+  expect_input_type: marketing_communication
+  expect_violations: []
+  expect_clean: true
+  note: >
+    Correct Section B warning, sober claims. Guards against a checker that
+    flags everything — a compliance agent that never returns "clean" is useless
+    because reviewers learn to ignore it.
+
+- id: tiered-spread-carveout
+  text: |
+    Trade more, pay less — spreads fall to 0.6 points once you pass 50 lots a month.
+    CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage.
+    76% of retail investor accounts lose money when trading CFDs with this provider.
+    You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+  expect_input_type: marketing_communication
+  expect_violations: []
+  expect_clean: true
+  note: >
+    PS-04-2019 3.4.10 expressly excludes tiered fee-spreads from the incentives
+    prohibition. This is the false-positive probe: it looks exactly like a banned
+    inducement and is not one.
+
+- id: bonus-offer
+  text: |
+    Deposit €500 today and we'll credit your account with an extra €500 to trade with.
+    CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage.
+    76% of retail investor accounts lose money when trading CFDs with this provider.
+    You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+  expect_input_type: marketing_communication
+  expect_violations: [CYSEC-PS0419-INCENTIVE-001]
+  expect_clean: false
+  note: >
+    A cash inducement to trade, banned by 3.4.3. The warning is correct and
+    complete, so the ONLY violation should be the incentive — this tests whether
+    the checker isolates the real problem instead of padding the list.
+
+- id: buried-warning
+  text: |
+    🔥 MASSIVE GAINS AVAILABLE NOW 🔥 Our traders are crushing it this month.
+    Join 50,000 traders. Zero commission. Instant withdrawals. Start with just €10.
+    Don't miss out — markets move fast and so should you.
+    Risk warning: CFDs carry risk.
+  expect_input_type: marketing_communication
+  expect_violations: [CYSEC-PS0419-RW-001, MIFID-FCM-003, CYSEC-PS0419-MISLEAD-001]
+  expect_clean: false
+  note: >
+    A warning is technically present, so keyword-matching would pass this. It is
+    truncated, carries no loss percentage, and is buried under heavy benefit
+    emphasis — the checker must read for substance, not presence.
+
+- id: wrong-warning-variant
+  text: |
+    Start trading EUR/USD today with Meridian Markets.
+    The vast majority of retail investor accounts lose money when trading CFDs.
+    You should consider whether you can afford to take the high risk of losing your money.
+  expect_input_type: marketing_communication
+  expect_violations: []
+  expect_clean: true
+  known_limitation: true
+  note: >
+    KNOWN LIMITATION, and the label was corrected rather than the checker.
+    This case originally expected a violation: the copy uses the standard
+    variant (Sections E-G), which PS-04-2019 permits only for firms without
+    12 months of retail client data. The checker returned clean, and it is
+    right to. Whether this firm may use that variant depends on its trading
+    history, which is nowhere in the text — so the requirement is NOT decidable
+    from the communication alone, and the original label demanded something
+    impossible. Deciding it needs firm context the tool does not have. Kept as
+    a standing reminder that "extracted a rule" and "can check that rule from
+    copy" are different claims.
+
+- id: out-of-scope-engineering-note
+  text: "Sprint 14 retro: the deploy pipeline is flaky, we should pin the runner image and add a retry to the smoke test."
+  expect_input_type: out_of_scope
+  expect_violations: []
+  expect_clean: true
+  note: >
+    The brief warns this is a marketing-materials check, "not just random text
+    from nowhere". The gate must decline rather than invent verdicts about a
+    sprint retrospective.
+
+- id: client-margin-notice
+  text: |
+    Account notice: your account equity has fallen to 48% of the margin required to maintain your open positions.
+    Positions may be closed automatically if equity falls further. You can deposit funds or reduce exposure in the app.
+  expect_input_type: client_communication
+  expect_violations: []
+  expect_clean: true
+  note: >
+    Factual notice to an existing client, not promotional. Should be classified
+    as client_communication and not judged against marketing-promotion rules.

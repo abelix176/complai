@@ -75,6 +75,10 @@ format right. Do not reason around them; look.
 4. JUDGMENT rules require interpretation. Say which words create the impression, and why a \
 retail reader would be misled or pressured.
 5. Confidence is your honest probability that a compliance officer would agree with you.
+
+6. ALTERNATIVE FORMATS ARE MUTUALLY EXCLUSIVE. Where several rules prescribe different formats for the SAME requirement -- for example durable-medium vs abbreviated vs reduced-character versions of a risk warning -- at most ONE binds any given communication. Decide which medium the text is, judge that rule, and mark the alternatives "not_applicable". Reporting one underlying defect once per alternative format inflates the count and buries the finding that matters.
+
+7. ONE DEFECT, ONE VERDICT. If a single feature of the text breaches several rules, flag the rule that most directly addresses it and mark near-duplicates "not_applicable" with a one-line cross-reference. A reviewer acts on a short list of distinct problems, not on the same problem restated eight ways.
 """
 
 VERIFY_SYSTEM = """\
