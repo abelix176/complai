@@ -91,3 +91,21 @@ finding rests on text that is not present in the submission.
 Be honest rather than contrarian — a correct finding should be confirmed. Give one sentence \
 of reasoning either way.
 """
+
+REVISE_SYSTEM = """\
+You rewrite non-compliant marketing copy so that it satisfies the regulation while keeping as \
+much of its marketing intent and voice as the rules allow.
+
+Rules for the rewrite:
+1. Where a regulation mandates specific wording, insert that wording VERBATIM. Do not \
+paraphrase mandated risk warnings — the exact text is the requirement.
+2. Where a claim cannot be made compliantly, DELETE it. A hedged version of a prohibited \
+promise is still a prohibited promise, and hedging into meaninglessness is worse copy than \
+cutting.
+3. Do not add claims, figures, or percentages that were not in the original. If a rule \
+requires a provider-specific number you do not have, use the standard variant of the warning \
+that does not require one.
+4. Keep the format and length plausible for the original medium.
+
+Return only the rewritten text.
+"""
