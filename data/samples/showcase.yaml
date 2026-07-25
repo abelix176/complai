@@ -1,0 +1,138 @@
+# Showcase corpus for the "try an example" panel.
+# Demo inputs only — no expected verdicts or compliance labels are included here.
+# Ground truth is hand-authored separately.
+
+- id: hype-get-rich
+  medium: social_post
+  text: |-
+    🚀🚀 Turn €500 into €5,000 in a WEEK with Vantora Markets CFDs! Our traders are CRUSHING it every single day 💰💰 No losses, just pure profit potential. Sign up NOW and claim your welcome bonus before it's gone! 🔥🔥
+  note: Emoji-heavy hype with an implied guaranteed return and zero risk warning of any kind.
+
+- id: urgency-flash-sale
+  medium: push_notification
+  text: |-
+    ⏰ LAST CHANCE! Only 2 hours left to unlock 0% commission trading on Vantora Markets. Thousands of traders are already in — don't get left behind. Tap now before this deal disappears forever!
+  note: Countdown-driven urgency and scarcity pressure with no mention of risk at all.
+
+- id: guaranteed-returns-landing
+  medium: landing_page
+  text: |-
+    Vantora Markets: Where Winning Is Guaranteed
+
+    Join the platform built for consistent profits. Our proprietary Smart Trade signals have delivered winning trades for 94% of our clients last quarter. Copy our top performers automatically and watch your balance grow, week after week, with virtually no effort on your part. Open an account today and start banking guaranteed gains.
+  note: Explicit "guaranteed" profit claim backed by a fabricated win-rate stat, with no risk disclosure anywhere on the page.
+
+- id: no-warning-affiliate
+  medium: affiliate_banner
+  text: |-
+    Vantora Markets pays the highest CFD leverage in the market — trade with up to 1:500 and multiply your gains instantly. Click through now and start trading bigger, faster, better.
+  note: Promotes maximum leverage as pure upside with no risk warning or balancing disclosure anywhere in the banner.
+
+- id: buried-warning-throwaway
+  medium: email
+  text: |-
+    Subject: Your Q3 Trading Bonus Is Here 🎉
+
+    Hi Alex, we've unlocked new trading tools for you: tighter spreads, faster execution, and a dedicated account manager. Log in and explore your upgraded dashboard today.
+
+    Happy trading,
+    The Vantora Team
+
+    P.S. CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 76% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+  note: The full mandated warning is technically present but demoted to a P.S. after the sign-off, beneath prominent bonus-focused copy.
+
+- id: wrong-variant-mismatch
+  medium: landing_page
+  text: |-
+    Vantora Markets gives you direct access to global CFD markets with tight spreads and fast execution. CFDs are complex instruments that carry risk due to leverage, and most retail accounts can lose money when trading CFDs with us. Please consider your risk tolerance carefully before you start trading.
+  note: A softened paraphrase stands in for the risk statement instead of either approved CySEC wording, so an exact-match check would flag it as missing.
+
+- id: benefits-overshadow-warning
+  medium: landing_page
+  text: |-
+    Vantora Markets Pro Account
+
+    ✔ Zero commission on 200+ CFD instruments
+    ✔ Lightning-fast execution under 30ms
+    ✔ Free access to premium market signals
+    ✔ Dedicated VIP support line
+    ✔ Copy trading from top-ranked strategists
+
+    CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. The vast majority of retail investor accounts lose money when trading CFDs. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+  note: Seven prominent benefit bullets dominate the page while the correctly worded warning appears just once, in plain text, at the very bottom.
+
+- id: missing-loss-percentage
+  medium: social_post
+  text: |-
+    CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. % of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. Trade smarter with Vantora Markets.
+  note: Uses the percentage-variant sentence structure but the actual loss figure was left blank, producing a broken rather than compliant warning.
+
+- id: compliant-landing-standard
+  medium: landing_page
+  text: |-
+    Vantora Markets offers CFD trading on shares, indices, commodities and forex, with transparent pricing and no hidden fees, backed by a regulated European broker.
+
+    CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. The vast majority of retail investor accounts lose money when trading CFDs. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+  note: Measured, factual copy carrying the standard-variant risk warning in full, given equal visual weight to the marketing content.
+
+- id: compliant-email-newsletter
+  medium: email
+  text: |-
+    Subject: Your Monthly Market Update from Vantora Markets
+
+    This month we cover interest rate expectations, upcoming earnings for major indices, and how leverage affects your margin requirements. Read the full breakdown on our research page.
+
+    CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 74% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+  note: Informational newsletter tone with the percentage-variant warning presented at normal size directly beneath the content it qualifies.
+
+- id: compliant-affiliate-banner
+  medium: affiliate_banner
+  text: |-
+    Vantora Markets: regulated CFD trading on 300+ global markets. CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 71% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+  note: Even in a compact banner format, the full percentage-variant warning is reproduced verbatim rather than trimmed for space.
+
+- id: deposit-bonus-offer
+  medium: push_notification
+  text: |-
+    Deposit €1,000 or more this week and Vantora Markets will add a 20% bonus straight to your trading account. More funds, more opportunities — top up now and claim yours before Friday.
+  note: A percentage-of-deposit match is a textbook trading inducement of the kind CySEC prohibits for retail clients.
+
+- id: cash-rebate-volume
+  medium: email
+  text: |-
+    Subject: Get Cash Back on Every Trade
+
+    Hi there, starting this month Vantora Markets is rewarding active traders with a cash rebate: trade 10 standard lots in a calendar month and we'll credit €100 directly to your account balance. The more you trade, the more you earn back. Terms apply.
+  note: A lots-traded-for-cash structure is a volume-based inducement rather than a cost adjustment, placing it squarely in prohibited territory.
+
+- id: referral-friend-bonus
+  medium: social_post
+  text: |-
+    Refer a friend to Vantora Markets and you BOTH get a €50 trading credit once they fund their account 🤝 Unlimited referrals, unlimited bonuses. Share your link today and start stacking rewards!
+  note: A refer-a-friend cash credit is a distinct inducement pattern worth testing alongside the deposit-match and volume-rebate examples.
+
+- id: tiered-spread-discount
+  medium: landing_page
+  text: |-
+    Vantora Markets applies volume-based spread pricing across all account tiers. Standard accounts trade major FX pairs from 1.2 pips; Active tier (10+ lots/month) drops to 0.9 pips; Professional tier (50+ lots/month) reaches 0.6 pips. Spreads are reviewed monthly and published transparently on our pricing page.
+  note: A published, volume-tiered spread schedule is a cost-structure adjustment rather than a cash inducement, so it should NOT trip a violation despite resembling "reward for trading more."
+
+- id: commission-tier-table
+  medium: email
+  text: |-
+    Subject: Updated Commission Tiers — Effective August 1
+
+    Your account tier is reviewed automatically each quarter based on trading volume. From August 1, clients trading 20+ lots per month move to our Silver tier (commission drops from $7 to $5 per lot), and 100+ lots per month qualifies for Gold tier ($3.50 per lot). No action is needed on your part.
+  note: A formulaic commission-per-lot discount tied to volume — the kind of structural pricing tier explicitly distinguished from prohibited trading inducements.
+
+- id: internal-ops-status
+  medium: internal_note
+  text: |-
+    Heads up team — the margin-call notification service had a 40-minute outage between 14:10 and 14:50 UTC today due to a queue backlog after the pricing-feed failover. All affected clients were re-notified retroactively once the queue drained. No trades were auto-liquidated during the gap. Postmortem doc going out tomorrow.
+  note: Purely internal engineering/ops update with no client-facing claims — probes whether the input gate correctly skips compliance scoring for non-marketing text.
+
+- id: margin-call-client-notice
+  medium: client_notice
+  text: |-
+    Your account (ending 4821) fell below the 50% margin level at 09:32 UTC on positions in DE40 and EUR/USD. To avoid automatic position closure, please deposit additional funds or reduce your open exposure. Current equity: €3,420. Required margin: €6,900. This notice is for information only.
+  note: A factual, individually-addressed operational notice to an existing client — tests that the gate distinguishes genuine account communications from marketing copy.
