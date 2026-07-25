@@ -1,0 +1,26 @@
+# --- Confidential / private material (NEVER commit) ---
+_private/
+.env
+.streamlit/secrets.toml
+
+# PDFs are excluded by default; the public regulation sources we ingest are the
+# one exception, so they stay committable.
+*.pdf
+!data/sources/*.pdf
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+
+# --- OS / editor ---
+.DS_Store
