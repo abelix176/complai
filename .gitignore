@@ -24,3 +24,6 @@ build/
 
 # --- OS / editor ---
 .DS_Store
+
+# Local SDD scratch
+.superpowers/
