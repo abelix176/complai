@@ -222,7 +222,21 @@ class FakeLLM:
 - [ ] **Step 4: Run tests to verify they pass**
 
 Run: `pytest tests/test_config.py tests/test_llm.py -v`
-Expected: PASS (7 passed)
+Expected: PASS (6 passed)
+
+Note: `load_settings()` calls `load_dotenv()`, and a real `.env` in the repo will
+re-populate a key that `monkeypatch.delenv` just removed — defeating the missing-key
+test. Neutralise dotenv for the whole suite with one autouse fixture in
+`tests/conftest.py`; do not build deletion-tracking machinery:
+
+```python
+import pytest
+
+@pytest.fixture(autouse=True)
+def _no_dotenv(monkeypatch):
+    """Tests control the environment; never let a real .env leak in."""
+    monkeypatch.setattr("complai.config.load_dotenv", lambda *a, **k: False)
+```
 
 - [ ] **Step 5: Commit**
 
