@@ -1,0 +1,408 @@
+[
+  {
+    "id": "CYSEC-PS0419-RW-001",
+    "source_doc": "PS-04-2019",
+    "source_ref": "3.5.12, Section A(1)",
+    "source_quote": "The risk warning shall be in a layout ensuring its prominence, in a font size at least equal to the predominant font size and in the same language as that used in the communication or published information.",
+    "title": "Risk warning must be prominent, same font size and language as the communication",
+    "requirement": "Ensure the standardised risk warning is displayed with a font size at least equal to the predominant font size of the communication, is in the same language as the rest of the communication, and is positioned so as to be prominent.",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication",
+      "product_description"
+    ],
+    "check_guidance": "Compare the font size of the risk warning text against the main body text of the marketing copy; check the language matches; check the warning is not hidden, minimised or relegated to an inconspicuous location (e.g. tiny footer).",
+    "severity": "high",
+    "source_span": [
+      43106,
+      43312
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "CYSEC-PS0419-RW-002",
+    "source_doc": "PS-04-2019",
+    "source_ref": "Section B",
+    "source_quote": "CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage.\n\n[insert percentage per provider ]% of retail investor accounts lose money when trading CFDs with this provider.\n\nYou should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.",
+    "title": "Durable medium/webpage risk warning must contain full three-part standard text",
+    "requirement": "For communications published in a durable medium or on a webpage, include the full standard risk warning text: the complexity/high-risk statement, the provider-specific loss percentage statement, and the affordability/understanding statement.",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication",
+      "product_description"
+    ],
+    "check_guidance": "Check the marketing copy (if durable medium or webpage) contains all three sentences of Section B, including a stated percentage of retail accounts that lose money with that provider. Absence of any of the three elements is non-compliant.",
+    "severity": "high",
+    "source_span": [
+      45700,
+      46037
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "CYSEC-PS0419-RW-003",
+    "source_doc": "PS-04-2019",
+    "source_ref": "Section C",
+    "source_quote": "[insert percentage per provider]% of retail investor accounts lose money when trading CFDs with this provider.\n\nYou should consider whether you can afford to take the high risk of losing your money.",
+    "title": "Abbreviated risk warning must contain loss percentage and affordability statement",
+    "requirement": "For communications not in a durable medium or webpage (e.g. short-form ads), include the abbreviated risk warning containing the provider-specific loss percentage and the affordability statement.",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication"
+    ],
+    "check_guidance": "Check short-form marketing copy includes both the stated loss percentage and the 'afford to take the high risk of losing your money' sentence.",
+    "severity": "high",
+    "source_span": [
+      46094,
+      46292
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "CYSEC-PS0419-RW-004",
+    "source_doc": "PS-04-2019",
+    "source_ref": "Section A(4)-(5), Section D",
+    "source_quote": "By way of derogation to paragraphs 2 and 3, if the number of characters contained in the risk warning in the format specified in Section B or C exceeds the character limit permitted in the standard terms of a third party marketing provider, the risk warning may instead be in the format specified in Section D.",
+    "title": "Reduced character warning permitted only under third-party character limits, with mandatory link",
+    "requirement": "Only use the reduced character risk warning ('[percentage]% of retail CFD accounts lose money.') where the full Section B or C warning would exceed a third-party marketing provider's character limit, and in that case include a direct link to the webpage containing the full Section B risk warning.",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication"
+    ],
+    "check_guidance": "If a reduced/short risk warning is used, check whether the medium has a demonstrable character limit (e.g. platform known for character constraints) and check for presence of a direct link to the full risk warning webpage. If no character constraint context and no link, flag as non-compliant.",
+    "severity": "medium",
+    "source_span": [
+      43639,
+      43949
+    ],
+    "counter_example": "Section D format is explicitly permitted, not prohibited, when character limits apply and a link is included."
+  },
+  {
+    "id": "CYSEC-PS0419-RW-005",
+    "source_doc": "PS-04-2019",
+    "source_ref": "3.5.11",
+    "source_quote": "CySEC will proceed with adopting the same risk warning as ESMA’s, except for the case of new firms that do not have 12 months of retail client trading data where we request that the percentage range is replaced with a reference stating that “The vast majority of retail client accounts lose money when trading in CFDs”",
+    "title": "New firms without 12 months of data must use qualitative loss statement, not a percentage",
+    "requirement": "If the firm does not have 12 months of retail client trading data, do not state a numeric loss percentage; instead use the wording 'The vast majority of retail investor accounts lose money when trading CFDs' (or the reduced character equivalent 'CFD-retail client accounts generally lose money').",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication",
+      "product_description"
+    ],
+    "check_guidance": "If the marketing copy is known to be from a new firm without 12 months of trading history, check that no specific percentage figure is stated and that the exact prescribed qualitative wording is used instead.",
+    "severity": "high",
+    "source_span": [
+      42208,
+      42526
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "CYSEC-PS0419-INCENTIVE-001",
+    "source_doc": "PS-04-2019",
+    "source_ref": "3.4.3",
+    "source_quote": "CFD providers should not directly or indirectly provide the retail client with a payment, monetary or excluded non-monetary benefit in relation to the marketing, distribution or sale of a CFD, other than the realised profits on any CFD provided",
+    "title": "Prohibition on offering cash or non-monetary inducements to trade CFDs",
+    "requirement": "Do not offer or advertise any payment, monetary benefit, bonus, or excluded non-monetary benefit (i.e. any non-monetary benefit other than information and research tools) as an inducement to open an account or trade CFDs.",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication"
+    ],
+    "check_guidance": "Scan for offers of bonuses, cash-back (beyond realised profits), gifts, prizes, or other non-monetary perks tied to trading or depositing. Flag any such offer. Information/research tools provided free are not caught.",
+    "severity": "high",
+    "source_span": [
+      36638,
+      36882
+    ],
+    "counter_example": "Tiered volume fee/spread discounts embedded in the cost structure (not retrospective rebates) are not considered incentives caught by this prohibition; nor are information and research tools related to CFDs."
+  },
+  {
+    "id": "CYSEC-PS0419-CRYPTO-001",
+    "source_doc": "PS-04-2019",
+    "source_ref": "3.1.29 (adopted leverage limits table)",
+    "source_quote": "3.1.29. To this end, CySEC will adopt the same leverage limits as ESMA’s for all retail clients. Therefore retail clients will be required to pay at least the following initial margin protection of the notional value of the CFD (i.e. leverage limits):\n\nType of Underlying Initial Margin Leverage Limit Protection Major Currency Pairs 3,33% 30:1 Non-major currency pairs, gold and major 5% 20:1 indices Commodities other than gold and non- 10% 10:1 major equity index For individual equities and other reference 20% 5:1 values; Crypto assets 50% 2:1",
+    "title": "No advertised leverage on crypto asset CFDs may exceed 2:1",
+    "requirement": "Do not state or imply, in marketing or product description copy, a leverage ratio for crypto asset CFDs greater than 2:1 (i.e. initial margin below 50%).",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication",
+      "product_description"
+    ],
+    "check_guidance": "Search for any stated leverage figure for crypto/cryptocurrency CFDs; compliant if at or below 2:1; flag any higher figure (e.g. 5:1, 10:1, 'up to 1:100').",
+    "severity": "high",
+    "source_span": [
+      30820,
+      31368
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "CYSEC-PS0419-LEV-001",
+    "source_doc": "PS-04-2019",
+    "source_ref": "3.1.29",
+    "source_quote": "Major Currency Pairs 3,33% 30:1",
+    "title": "No advertised leverage on major currency pair CFDs may exceed 30:1",
+    "requirement": "Do not state or imply a leverage ratio for major currency pair CFDs greater than 30:1 in marketing copy.",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication",
+      "product_description"
+    ],
+    "check_guidance": "Check any stated leverage for major currency pairs; flag figures above 30:1.",
+    "severity": "high",
+    "source_span": [
+      31133,
+      31164
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "CYSEC-PS0419-LEV-002",
+    "source_doc": "PS-04-2019",
+    "source_ref": "3.1.29 (adopted leverage limits table)",
+    "source_quote": "3.1.29. To this end, CySEC will adopt the same leverage limits as ESMA’s for all retail clients. Therefore retail clients will be required to pay at least the following initial margin protection of the notional value of the CFD (i.e. leverage limits):\n\nType of Underlying Initial Margin Leverage Limit Protection Major Currency Pairs 3,33% 30:1 Non-major currency pairs, gold and major 5% 20:1 indices Commodities other than gold and non- 10% 10:1 major equity index For individual equities and other reference 20% 5:1 values; Crypto assets 50% 2:1",
+    "title": "No advertised leverage on non-major currency pairs, gold, or major indices CFDs may exceed 20:1",
+    "requirement": "Do not state or imply a leverage ratio greater than 20:1 for non-major currency pairs, gold, or major indices CFDs in marketing copy.",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication",
+      "product_description"
+    ],
+    "check_guidance": "Check any stated leverage figure for these underlyings; flag figures above 20:1.",
+    "severity": "high",
+    "source_span": [
+      30820,
+      31368
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "CYSEC-PS0419-LEV-003",
+    "source_doc": "PS-04-2019",
+    "source_ref": "3.1.29 (adopted leverage limits table)",
+    "source_quote": "3.1.29. To this end, CySEC will adopt the same leverage limits as ESMA’s for all retail clients. Therefore retail clients will be required to pay at least the following initial margin protection of the notional value of the CFD (i.e. leverage limits):\n\nType of Underlying Initial Margin Leverage Limit Protection Major Currency Pairs 3,33% 30:1 Non-major currency pairs, gold and major 5% 20:1 indices Commodities other than gold and non- 10% 10:1 major equity index For individual equities and other reference 20% 5:1 values; Crypto assets 50% 2:1",
+    "title": "No advertised leverage on other commodities/non-major equity indices may exceed 10:1",
+    "requirement": "Do not state or imply a leverage ratio greater than 10:1 for commodities (other than gold) or non-major equity indices in marketing copy.",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication",
+      "product_description"
+    ],
+    "check_guidance": "Check any stated leverage figure for these underlyings; flag figures above 10:1.",
+    "severity": "high",
+    "source_span": [
+      30820,
+      31368
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "CYSEC-PS0419-LEV-004",
+    "source_doc": "PS-04-2019",
+    "source_ref": "3.1.29 (adopted leverage limits table)",
+    "source_quote": "3.1.29. To this end, CySEC will adopt the same leverage limits as ESMA’s for all retail clients. Therefore retail clients will be required to pay at least the following initial margin protection of the notional value of the CFD (i.e. leverage limits):\n\nType of Underlying Initial Margin Leverage Limit Protection Major Currency Pairs 3,33% 30:1 Non-major currency pairs, gold and major 5% 20:1 indices Commodities other than gold and non- 10% 10:1 major equity index For individual equities and other reference 20% 5:1 values; Crypto assets 50% 2:1",
+    "title": "No advertised leverage on individual equities/other reference values may exceed 5:1",
+    "requirement": "Do not state or imply a leverage ratio greater than 5:1 for individual equities or other reference values in marketing copy.",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication",
+      "product_description"
+    ],
+    "check_guidance": "Check any stated leverage figure for individual equities/other reference values; flag figures above 5:1.",
+    "severity": "high",
+    "source_span": [
+      30820,
+      31368
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "CYSEC-PS0419-MISLEAD-001",
+    "source_doc": "PS-04-2019",
+    "source_ref": "2.3",
+    "source_quote": "CIFs providing investment services in CFDs were engaging in aggressive marketing techniques and did not provide adequate information in relation to the risks involved, thus not allowing retail clients to fully understand the risks entailed and make an informed decision about their respective investment(s).",
+    "title": "Marketing must not be aggressive or omit adequate risk information",
+    "requirement": "Ensure marketing communications provide adequate, balanced information about the risks of CFD trading and do not use aggressive techniques that would prevent a retail client from understanding the risks and making an informed decision.",
+    "category": "judgment",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication"
+    ],
+    "check_guidance": "Assess whether the copy emphasises potential gains while downplaying, omitting, or obscuring risk information; assess use of high-pressure language, urgency tactics, or claims that understate the risk of loss. Compliant copy gives fair prominence to risk alongside any benefit claims.",
+    "severity": "high",
+    "source_span": [
+      10242,
+      10549
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "CYSEC-PS0419-MISLEAD-002",
+    "source_doc": "PS-04-2019",
+    "source_ref": "2.4",
+    "source_quote": "CIFs were also found to be providing trading benefits to retail clients (in the form of a bonus or otherwise) via their marketing strategies, aiming to attract and encourage retail clients to trade in CFDs.",
+    "title": "Marketing must not use trading benefits/bonuses to encourage trading behaviour not in clients' best interest",
+    "requirement": "Do not use marketing content that promotes bonuses or other trading benefits designed to encourage retail clients to trade more frequently or take on more risk than is in their best interest.",
+    "category": "judgment",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication"
+    ],
+    "check_guidance": "Look for language encouraging increased trading frequency or size tied to promotional benefits; assess whether such messaging could encourage behaviour contrary to client best interests. This overlaps with, but is broader in judgment terms than, the mechanical incentive prohibition.",
+    "severity": "medium",
+    "source_span": [
+      10556,
+      10762
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "CYSEC-PS0419-TIERED-001",
+    "source_doc": "PS-04-2019",
+    "source_ref": "3.4.10",
+    "source_quote": "we do not consider Tiered Fees-Spreads to fall within the scope of the prohibition",
+    "title": "Tiered volume-based fee/spread discounts are not prohibited incentives",
+    "requirement": "Do not flag tiered fee or spread discount structures (where clients benefit from lower transaction costs for new trades after reaching a specified trading volume, embedded in the cost structure without retrospective rebates) as prohibited incentives.",
+    "category": "judgment",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication"
+    ],
+    "check_guidance": "If copy describes a tiered fee/spread discount structure without retrospective rebates or cash-back for prior trades, treat as compliant and not an inducement violation.",
+    "severity": "low",
+    "source_span": [
+      38708,
+      38790
+    ],
+    "counter_example": "Tiered Fees-Spreads (embedded volume-based discounts, not retrospective rebates) are explicitly excluded from the incentive prohibition."
+  },
+  {
+    "id": "MIFID-FCM-001",
+    "source_doc": "mifid-fair-clear",
+    "source_ref": "Directive 2014/65/EU, Article 24(3)",
+    "source_quote": "Member States shall ensure that all information, including marketing\ncommunications, addressed by the investment firm to clients or potential\nclients shall be fair, clear and not misleading.",
+    "title": "Information must be fair, clear and not misleading",
+    "requirement": "Ensure all marketing communications are fair, clear and not misleading.",
+    "category": "judgment",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication",
+      "product_description"
+    ],
+    "check_guidance": "Read the copy for balance, accuracy, and clarity. Flag language that is deceptive, exaggerated, omits material facts, or could reasonably mislead an average recipient about the nature, risk or performance of the product/service.",
+    "severity": "high",
+    "source_span": [
+      704,
+      894
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "MIFID-FCM-002",
+    "source_doc": "mifid-fair-clear",
+    "source_ref": "Directive 2014/65/EU, Article 24(3)",
+    "source_quote": "Marketing communications\nshall be clearly identifiable as such.",
+    "title": "Marketing communications must be clearly identifiable",
+    "requirement": "Label or present marketing communications so that they are clearly identifiable as marketing, not as neutral information, advice or research.",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication"
+    ],
+    "check_guidance": "Check whether the communication contains an explicit marker or contextual indication (e.g. heading, disclaimer, format) identifying it as a marketing/promotional communication. Absence of any such identification is a violation; the rule does not require a specific wording, only clear identifiability.",
+    "severity": "medium",
+    "source_span": [
+      895,
+      958
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "MIFID-FCM-003",
+    "source_doc": "mifid-fair-clear",
+    "source_ref": "Commission Delegated Regulation (EU) 2017/565, Article 44(2)(b)",
+    "source_quote": "the information is accurate and always gives a fair and prominent\nindication of any relevant risks when referencing any potential benefits\nof an investment service or financial instrument",
+    "title": "Benefits must be paired with a fair and prominent risk indication",
+    "requirement": "Whenever the copy references potential benefits of an investment service or financial instrument, accompany it with a fair and prominent indication of the relevant risks.",
+    "category": "judgment",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication",
+      "product_description"
+    ],
+    "check_guidance": "Identify every statement of benefit, upside, return or advantage. Verify each is matched with a corresponding, comparably prominent risk statement. Flag benefit statements with no accompanying risk disclosure, or where risk disclosure is present but clearly subordinate/buried.",
+    "severity": "high",
+    "source_span": [
+      1377,
+      1564
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "MIFID-FCM-004",
+    "source_doc": "mifid-fair-clear",
+    "source_ref": "Commission Delegated Regulation (EU) 2017/565, Article 44(2)(c)",
+    "source_quote": "uses a font size in the indication of relevant risks that is at least\nequal to the predominant font size used throughout the information\nprovided, as well as a layout ensuring such indication is prominent",
+    "title": "Risk indication font size and layout prominence",
+    "requirement": "Present risk indications in a font size at least equal to the predominant font size used elsewhere in the communication, and in a layout that makes the risk indication prominent.",
+    "category": "mechanical",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication",
+      "product_description"
+    ],
+    "check_guidance": "Compare the font size used for risk warnings/disclosures against the predominant body font size in the material. Check layout placement (e.g. not in a footnote, not visually diminished, not hidden below the fold) to confirm prominence. Flag any risk text in smaller font or visually subordinate placement.",
+    "severity": "high",
+    "source_span": [
+      1586,
+      1790
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "MIFID-FCM-005",
+    "source_doc": "mifid-fair-clear",
+    "source_ref": "Commission Delegated Regulation (EU) 2017/565, Article 44(2)(d)",
+    "source_quote": "the information is sufficient for, and presented in a way that is likely\nto be understood by, the average member of the group to whom it is\ndirected, or by whom it is likely to be received",
+    "title": "Information must be understandable to the target audience",
+    "requirement": "Ensure the content and level of detail is sufficient for, and presented in language likely to be understood by, the average member of the intended or likely recipient group.",
+    "category": "judgment",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication",
+      "product_description"
+    ],
+    "check_guidance": "Assess whether jargon, technical terms or complexity is appropriate for the stated/likely target audience. Flag communications that assume specialist knowledge not appropriate to a retail or general audience, or that omit information a typical recipient would need to understand the offer.",
+    "severity": "medium",
+    "source_span": [
+      1812,
+      2000
+    ],
+    "counter_example": null
+  },
+  {
+    "id": "MIFID-FCM-006",
+    "source_doc": "mifid-fair-clear",
+    "source_ref": "Commission Delegated Regulation (EU) 2017/565, Article 44(2)(e)",
+    "source_quote": "the information does not disguise, diminish or obscure important items,\nstatements or warnings",
+    "title": "Do not disguise, diminish or obscure important items or warnings",
+    "requirement": "Do not present important items, statements or warnings in a way that disguises, diminishes or obscures them.",
+    "category": "judgment",
+    "applies_to": [
+      "marketing_communication",
+      "client_communication",
+      "product_description"
+    ],
+    "check_guidance": "Look for techniques that bury or downplay material information or warnings: small print, dense text blocks, distracting design, contradictory surrounding claims, or placement that reduces visibility/salience. Flag any instance where an important item/warning is present but effectively hidden or undermined.",
+    "severity": "high",
+    "source_span": [
+      2022,
+      2116
+    ],
+    "counter_example": null
+  }
+]

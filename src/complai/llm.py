@@ -5,9 +5,37 @@ never by parsing JSON out of prose. Reliability comes from the schema.
 """
 from __future__ import annotations
 
+import json
 from typing import Any, Protocol
 
 from complai.config import Settings
+
+
+class TruncatedResponse(RuntimeError):
+    """The model ran out of output tokens mid-answer. Fail loudly rather than
+    hand back a half-built rulebook that looks complete."""
+
+
+def coerce_json_fields(payload: dict[str, Any]) -> dict[str, Any]:
+    """Parse top-level values the model serialised as JSON text.
+
+    Forced tool-use usually yields real arrays and objects, but the model
+    intermittently returns a field as a JSON *string* instead. Left alone,
+    a stringified list iterates character by character and fails far from
+    the cause — observed as 6059 "rules", each one character long.
+    """
+    out: dict[str, Any] = {}
+    for key, value in payload.items():
+        if isinstance(value, str):
+            stripped = value.strip()
+            if stripped.startswith(("[", "{")):
+                try:
+                    out[key] = json.loads(stripped)
+                    continue
+                except json.JSONDecodeError:
+                    pass
+        out[key] = value
+    return out
 
 
 class LLMClient(Protocol):
@@ -40,9 +68,14 @@ class AnthropicClient:
             }],
             tool_choice={"type": "tool", "name": tool_name},
         )
+        if response.stop_reason == "max_tokens":
+            raise TruncatedResponse(
+                f"{tool_name!r} response hit the {max_tokens}-token limit and was cut off. "
+                "Raise max_tokens or split the input; a truncated rulebook is worse than none."
+            )
         for block in response.content:
             if block.type == "tool_use":
-                return dict(block.input)
+                return coerce_json_fields(dict(block.input))
         raise RuntimeError(f"Model returned no tool_use block for {tool_name!r}")
 
 
