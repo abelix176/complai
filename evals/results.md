@@ -21,8 +21,8 @@ list only the headline violation(s) each case is designed to probe; any addition
 rule the checker flags counts against precision even when the finding is defensible.
 Every remaining false positive sits on copy that is genuinely non-compliant
 (brief-example, bonus-offer, buried-warning) where extra findings are arguable. The
-cases that exist specifically to punish over-flagging — compliant-banner and
-tiered-spread-carveout — both come back completely clean, which is the result that
+cases that exist specifically to punish over-flagging, compliant-banner and
+tiered-spread-carveout, both come back completely clean, which is the result that
 actually matters for trustworthiness.
 
 What this harness caught, in order
@@ -43,7 +43,7 @@ What this harness caught, in order
 Item 4 is the one worth dwelling on: the harness caught an error in its own ground
 truth, not in the system under test.
 
-Model comparison — Sonnet 5 vs Opus 5
+Model comparison, Sonnet 5 vs Opus 5
 -------------------------------------
 Same 8 cases, same rulebook, one run each. `COMPLAI_MODEL` selects the model.
 
@@ -66,7 +66,7 @@ than a trade-off.
 Caveat, and it matters: this is ONE run over EIGHT cases. Both models are
 non-deterministic and the gap is well within what that could produce. Read it as
 directional evidence that the more expensive model is not automatically better
-here — not as a measured ranking. Anyone rerunning this should expect different
+here, not as a measured ranking. Anyone rerunning this should expect different
 numbers.
 
 Prompt caching
