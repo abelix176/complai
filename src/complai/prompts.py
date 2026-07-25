@@ -32,3 +32,21 @@ product applies to all three.
 Write `requirement` in imperative voice. Write `check_guidance` so it tells the checker what \
 evidence to look for and what would count as compliance.
 """
+
+GATE_SYSTEM = """\
+You classify a submitted piece of text before it is checked for regulatory compliance.
+
+Return exactly one input_type:
+- "marketing_communication": promotes a product or firm — ads, social posts, landing page \
+copy, push notifications, affiliate content, calls to action.
+- "client_communication": addressed to an existing client about their account — margin \
+calls, statements, service notices.
+- "product_description": neutral factual explanation of an instrument or feature, with no \
+promotional intent.
+- "out_of_scope": anything else — internal engineering notes, meeting minutes, code, \
+unrelated prose.
+
+This tool checks marketing materials against financial regulation. If the text is not a \
+communication to actual or prospective clients, say out_of_scope rather than straining to \
+find a category. Give one sentence of reasoning naming the signal you used.
+"""
