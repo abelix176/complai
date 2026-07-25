@@ -1,61 +1,563 @@
-POLICY STATEMENT (PS-04-2019) SUBJECT: POLICY STATEMENT ON THE IMPOSITION OF NATIONAL MEASURES IN RELATION TO THE MARKETING, DISTRIBUTION AND SALE OF CFDs DATE OF ISSUE: 27 SEPTEMBER 2019
+POLICY STATEMENT (PS-04-2019)
 
-PURPOSE OF THE PUBLICATION This Policy Statement contains the Cyprus Securities and Exchange Commission’s (CySEC) decision on the imposition of national measures in relation to the marketing, distribution and sale of CFDs. Queries in relation to the content of this Policy Statement may be addressed to the Policy Department of the Cyprus Securities and Exchange Commission at policy@cysec.gov.cy.
+SUBJECT: POLICY STATEMENT ON THE IMPOSITION OF NATIONAL MEASURES IN RELATION TO THE MARKETING, DISTRIBUTION AND SALE OF CFDs
 
-CONTENT SECTION TITLE PAGE 1. INTRODUCTION 4. PURPOSE OF THIS POLICY STATEMENT 4. DEFINITIONS 5. WHO THIS CONCERNS 7. 2. RATIONALE FOR SUPERVISORY ACTION 7. BACKGROUND INFORMATION 7. CySEC’S ACTIONS PRIOR TO THE IMPLEMENTATION OF THE ESMA MEASURES 8. ESMA MEASURES 9. CySEC ACTI ONS FOLLOWING THE IMPLEMENTATION OF THE ESMA MEASURES 10. 3. FEEDBACK RECEIVED ON THE PROPOSED MEASURES ON CFDS AND CySEC’S POSITION 11. 3.1 LEVERAGE LIMITS 11. SUMMARY OF COMMENTS IN RELATION TO QUESTIONS 1-5 14. CySEC’S POSITION 18. 3.2 MARGIN CLOSE OUT PROTECTION 19. SUMMARY OF COMMENTS IN RELATION TO QUESTION 6 20. CYSEC’S POSITION 20. 3.3 NEGATIVE BALANCE PROTECTION 20. SUMMARY OF COMMENTS IN RELATION TO QUESTION 7 21. CySEC’S POSITION 21. 3.4 RESTRICTIONS ON THE INCENTIVES OFFERED TO TRADE CFDs 21.
+DATE OF ISSUE: 27 SEPTEMBER 2019
 
-SUMMARY OF COMMENTS IN RELATION TO QUESTION 8 22. CySEC’S POSITION 23. 3.5 STANDARDISED RISK WARNINGS 23. SUMMARY OF COMMENTS IN RELATION TO QUESTION 9 24. CySEC’S POSITION 24. 4. TERRITORIAL SCOPE OF CyNPIMS 28. 5. CONSULTATION WITH OTHER NCAs 29. 6. CONSULTATION WITH THE PUBLIC BODIES COMPETENT FOR THE OVERSIGHT, ADMINISTRATION AND REGULATION OF PHYSICAL AGRICULTURAL MARKETS 29.
+PURPOSE OF THE PUBLICATION
 
-1. INTRODUCTION PURPOSE OF THIS POLICY STATEMENT 1.1. The Cyprus Securities and Exchange Commission (“CySEC”) published a Consultation Paper on 30 May 2019 (“CP-02-2019”) regarding the proposed National Product Intervention Measures (“NPIMs”) in relation to the marketing, distribution and sale of Contracts For Dif ferences (“CFDs”), to be taken pursuant to Article 42 of Regulation (EU) No 600/20141 (“MiFIR”). This Policy Statement summarises the feedback received in response to CP-02-2019 and contains CySEC’s final position on the matter by way of Directive DI87 -09 which has been published in the Official Gazette of the Republic of Cyprus. 1.2. The measures proposed by CySEC under CP-02-2019 were largely aligned with the European Secu rities and Markets Authority’s (“ESMA”) temporary product intervention measures which introduced restriction s on the marketing, distribution or sale of CFDs to retail clients in 2018. In addition, CySEC proposed a risk-based approach in relation to the leverage restrictions on CFDs. 1.3. CySEC proposed to introduce stricter leverage limits for those retail clients falling within the grey area of the target market and slightly higher leverage limits for the retail clients falling within the upper tier of positive target market. 1.4. Specifically, CySEC proposed under CP-02-2019 to introduce the following measures:  Limiting leverage to between 50:1 and 1:1, depending on the volatility of the underlying assets and the knowledge, wealth, risk appetite, objectives and needs of the respective retail client;  Introducing a margin close out, when the clients’ funds fall to 50% of the margin needed to maintain their open positions on their CFD account;  Introducing a negative balance protection per account basis, so that ret ail clients cannot lose more than the total funds in their trading account;  Prohibiting firms from offering cash or other inducements to encourage retail clients to trade; and, 1 Regulation (EU) No 600/2014 of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Regulation (EU) No 648/2012.
+This Policy Statement contains the Cyprus Securities and Exchange Commission’s (CySEC) decision on the imposition of national measures in relation to the marketing, distribution and sale of CFDs.
 
- Requiring firms to provide standardised risk warnings informing potential customers of the percentage of their retail client accounts which make losses. 1.5. CySEC received feedback from fifteen (15) respondents comprised of Investment Firms, one Industry Association, one National Competent Authority 2 (“NCA”) of another Member State a nd one retail investor. The retail investor requested CySEC to reconsider its approach and to refrain from introducing any measures particularly in relation to leverage. The NCA raised concerns in relation to the proposed divergence from ESMA measures unde r CP -02-2019, particularly in relation to whether such divergence will create confusion amongst residents of the specific Member State as to the content of restrictions that are applicable to them. 1.6. In our view, the introduction of national measures is necessary for the protection of retail investors and therefore we do not consider the approach proposed by the retail investor to be justified. 1.7. In relation to the concerns raised by the NCA, CySEC shares the concerns in relation to the cross-border application of measures and the confusion that might be created by the adoption of different measures across the Union by the NCAs. To this end, we believe that the most appropriate way forward is to structure our measures in a way that incorporates the content of the measures taken by other NCAs when firms falling under our remit market, distribute or sell CFDs in the territory of such Member States (for more information please refer to Chapter 4 of this Policy Statement). 1.8. Chapter 3 summarises the rest of the responses per question, CySEC’s position and the content of Cyprus National Product Intervention Measures (“CyNPIMs”). DEFINITIONS 1.9. For the purposes of this Policy Statement, the terms referred to in paragraphs 1.10 – 1.16, shall have the meaning ascribed to them by the paragraphs below. 1.10. “contract for differences” or “CFD” means a derivative other than an option, future, swap or forward rate agreement, the purpose of which is to give the holder a long or short exposure to fluctuations in the price, level or value of an underlying, irrespective of whether it is traded on a trading venue, and that must be settled in cash or may be settled in cash at the option of one of the parties other than by reason of default or other termination event. 2 COMISIÓN NACIONAL DEL MERCADO DE VALORES of Spain (CNMV).
+Queries in relation to the content of this Policy Statement may be addressed to the Policy Department of the Cyprus Securities and Exchange Commission at policy@cysec.gov.cy.
 
-1.11. “excluded non -monetary benefit” means any non -monetary benefit other than, insofar as they relate to CFDs, information and research tools. 1.12. “initial margin” means any payment for the purpose of entering into a CFD, excluding commission, transaction fees and any other related costs. 1.13. “initial margin protection” means the initial margin that retail clients will be required to pay in accordance with CySEC’s measures. 1.14. “margin close-out protection” means the closure of one or more of a retail client's open CFDs on terms most favourable to the client in accordance with Articles 24 and 27 of Directive 2014/65/EU when the sum of funds in the CFD trading account and the unrealised net profits of all open CFDs connected to that account falls to less than half of the total initial margin protection for all those open CFDs. 1.15. “negative balance protection” means the limit of a retail client's aggregate liability for all CFDs connected to a CFD trading account with a CFD provider to the funds in that CFD trading account. 1.16. Where the meaning of the terms referred to in paragraphs 1.9 - 1.15, or the meaning of other terms mentioned in this Policy Statement, is further clarified in: i The ESMA Decision to temporarily restrict contracts for differences in the Union3 and the renewals thereof (the “ESMA Decision on CFDs”); or ii The ESMA Questions and Answers on ESMA’s temporary product intervention measures on the marketing, distribution or sale of CFDs and Binary options to retail clients , as amended from time to time (the “ESMA Q&As on Product Intervention”), such clarifications apply to these terms. 1.17. Where a term is not otherwise defined herein shall take the meaning provided for in the Investment Services and Activities and Regulated Markets Law of 2017 (the “Law”)4. 3 EUROPEAN SECURITIES AND MARKETS AUTHORITY DECISION (EU) 2018/796 of 22 May 2018 to temporarily restrict contracts for differences in the Union in accordance with Article 40 of Regulation (EU) No 600/20 14 of the European Parliament and of the Council 4 Transposing Directive 2014/65/EU of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Directive 2002/92/EC and Directive 2011/61/EU, into national Law.
+CONTENT
 
-WHO THIS CONCERNS 1.18. This Policy Statement concerns the entities that market, distribute or sell CFDs, in or from the Republic of Cyprus to retail investors. 1.19. The entities collaborating with the persons referred to in the previous paragraph will also be permanently affected in the way descr ibed in CySEC’s Policy Statement on the Risk Management Arrangements of CIFs that provide investment services in CFDs (“PS-01-2019”). 1.20. Retail investors will also be impacted by this Policy Statement. 2. RATIONALE FOR SUPERVISORY ACTION BACKGROUND INFORMATION 2.1. CySEC supervises a significant number of CIFs engaging in the provision of investment services in complex financial instruments, pa rticularly in CFDs. The aforesaid CIFs provide their services in the Republic of Cyprus but also in other Member States or third countries, either on a cross -border basis or through the establishment of a branch. According to CySEC’s records on cross -border notifications, 2,157 entities domiciled in other Member States are allowed to provide their services in the Republic of Cyprus on a cross-border basis, 580 of which their authorisation includes the provision of services in CFDs. 2.2. The compliance of CIFs with their regulatory obligations has consistently been a key supervisory priority, as reflected in CySEC’s annual Supervisory Action Plans. CySEC’s actions were further intensified since 2015, where practices that raised concerns for investor protection were observed. 2.3. Particularly in the context of supervisory audits, CySEC has observed that CIFs providing investment services in CFDs were engaging in aggressive marketing techniques and did not provide adequate information in relation to the risks involved, thus not allowing retail clients to fully understand the risks entailed and make an informed decision about their respective investment(s). 2.4. CIFs were also found to be providing trading benefits to retail clients (in the form of a bonus or otherwise) via their marketing strategies, aiming to attract and encourage retail clients to trade in CFDs. Given the complexity that such products entail , such trading benefits encouraged behaviours that are not in the best interests of clients.
+SECTION TITLE PAGE 1. INTRODUCTION 4. PURPOSE OF THIS POLICY STATEMENT 4. DEFINITIONS 5. WHO THIS CONCERNS 7. 2. RATIONALE FOR SUPERVISORY ACTION 7.
 
-2.5. CySEC also observed that CIFs providing investment services in CFDs were providing excessive levels of leverage (in some cases exceeding 1:500). Whilst leverage can increase the possible profit for clients, it can also increase the possible losses, resulting in losing more than the invested amount (i.e. resulting in negative balances in the retail client trading accounts) as a consequence of a fluctuation in the price of the underlying instrument. 2.6. Investors’ detriment stemming from the above risks was confirmed by an analysis that CySEC conducted on a sample of CFD client accounts. Specifically, the analysis was conducted on a sample of 18 major CFD providers for the period from 1 January 2017 to 31 August 2017. The analysis revealed that 76% of client accounts made an overall loss over the period, with around 24% of client accounts in profit. 2.7. Similar findings were reported by other NCAs of the European Economic Area (“EEA”) in relation to the provision of investment services in CFDs. 2.8. The characteristics and the risks that CFDs entail are further elaborated in the recitals of the ESMA Decisions on CFDs and in the ESMA Product Intervention Analysis in relation to the measures on CFDs. CySEC’S ACTIONS PRIOR TO THE IMPLEMENTATION OF THE ESMA MEASURES 2.9. In view of the above, CySEC issued a series of circulars 5 addressed to CIFs, which provided guidelines to the supervised entities for their compliance with the regulatory framework. These guidelines, included, inter alia , a) a requirement to modify their systems so as to have a predetermined leverage limit of 1:50 for all nonprofessional clients, which a client can change to a higher limit if he/she so desires; b) the requirement to protect investors from negative balance protection per account basis; c) a ban on the provision of bonuses encouraging retail clients to invest in complex financial instruments; and, d) guidelines for the proper management of conflicts of interest. 2.10. CySEC has also conducted a series of audits and investigations since 2015 in relation to CIFs providing investment services in CFDs. The audits revealed serious misconduct by a number of CFD providers, resulting in the imposition of administrative sanctions6 both to the CIFs and to natural persons employed by them. Furthermore, where appropriate, CySEC revoked the authorization of CIFs and 5 See: https://www.cysec.gov.cy/en-GB/public-info/circulars/supervised/investment-firms/ 6See: https://www.cysec.gov.cy/en-GB/public-info/decisions/
+BACKGROUND INFORMATION 7.
 
-referred the cases to the Attorney -General of the Republic of Cyprus for further action. ESMA MEASURES 2.11. In 2015, an ESMA CFDs Task Force (the “Task Force”) was established in which CySEC participates to examine and coordinate a European-wide response to action relating to the provision of investment services in this type of financial instruments. 2.12. As a result of the Task Force’s action, ESMA issued a series of questions and answers concerning the provision of investment services in CFDs and other speculative products. Taking into account the risks posed by these services and products and its proven detrimen tal impact on investor protection, ESMA introduced temporary product intervention measures, pursuant to MiFIR, by virtue of the ESMA Decision on CFDs. 2.13. The ESMA measures in relation to CFDs included the following: i Leverage limits on the opening of a posit ion by a retail client from 30:1 to 2:1, which vary according to the volatility of the underlying instrument; ii A margin close -out rule on a per account basis. This aimed to standardise the percentage of margin (at 50% of minimum required margin) at which pr oviders are required to close out one or more retail client’s open CFDs; iii Negative balance protection on a per account basis (“NBP”); iv A restriction on the incentives offered to trade CFDs; and, v A standardised risk warning, including the percentage of losses on a CFD provider’s retail investor accounts. 2.14. The ESMA Decisions on CFDs was renewed three times 7. ESMA has also agreed on the exclusion of a limited number of products from the scope of the measure 8 and on the introduction of a reduced character standar dized risk warning, where there are character limitations by the third-party marketing provider. 2.15. ESMA decided to not proceed with further renewals of its measures in relation to CFDs, resulting in the measures lapsing on 1 August 2019. 7 See: https://www.esma.europa.eu/policy-activities/mifid-ii-and-investor-protection/product-intervention 8 See: https://www.esma.europa.eu/press-news/esma-news/esma-renew-prohibition-binary-options-furtherthree-months
+CySEC’S ACTIONS PRIOR TO THE IMPLEMENTATION OF THE 8. ESMA MEASURES
 
-CYSEC ACTIONS FOLLOWING THE IMPLEMENTATION OF THE ESMA MEASURES 2.16. CySEC has prioritised the effective implementation of the ESMA Decisions on CFDs and Binary Options including the implementation of the NBP requirement by CIFs under CySEC’s supervision. In view of the fact th at a similar measure was already in place in Cyprus governing CIFs’ compliance at CySEC’s own initiative, CySEC conducted a market-wide review of how CIFs providing investment services in CFDs have restructured their business model in order to address the implication of NBP. 2.17. As a consequence, CySEC enforced the restructuring of the market risk transfer arrangements of certain types of CFD CIFs and imposed additional capital requirement to the CIFs that engage in market risk transfer activities or transact for their own benefit in CFDs - with entities domiciled in countries that do not have , or are unlikely to have , an adequate prudential regime. To this end, CySEC issued a Policy Statement on the Risk Management Arrangements of CIFs that provide investment services in CFDs on 4 February 2019 (“PS 01-2019”). PS-01-2019 provides for the following:  CIFs providing investment services in CFDs (“CFD CIFs”), which operate under a licence providing for the initial capital of €125.000 9 (“125k CFD CIF”) , were required to restructure their market risk transfer arrangements in order to ensure that the third party to whom they transfer the market risk assumes responsibility for the Negative Balances that might appear in the trading account of a retail client of the 125k CFD CIF; and,  Where a CFD CIF, irrespectively of its initial capital requirements or type of clients has market risk transfer arrangements in place and/or engages in CFDs trading for its own benefit (if this is permissible under the type of their authorisation), with entities domiciled in non-EEA jurisdictions that are not i Credit institutions; or ii Investment Firms, domiciled in a third country for which there is an equivalent decision for the purposes of Article 107(4) of Regulation (EU) No 575/201316 or which is a member of the G20, were required to maintain an additional capital buffer of the highest quality of the CIF’s capital (Common Equity Tie r 1 capital). This 9 The initial capital of article 10(2)2 of the Investment Services and Activities and Regulated Markets Laws of 2007 to 2016, the provisions of which have been grandfathered under Article 104(2) of the Law.
+ESMA MEASURES 9.
 
-additional capital requirement had to be equal to the higher value of either a) €2.000.000, or b) 2% of the Investment Firms’ total risk exposure. 2.18. As part of its supervision, CySEC monitors client categorisation and onboarding processes in order to ensure that CIFs will not allow clients to reclassify as elective professional investors, where the criteria provided for in the Law are not met in order to avoid the scope of the measures. 2.19. The audit and investigation in relation to the compl iance of CIFs that provide investment services in CFDs are ongoing and cover several areas of the regulatory framework, aiming to ensure that investor protection is not put at risk of compromise. 2.20. In view of the ESMA decision to not proceed with further re newals of its measures in relation to CFDs, CySEC issued a Circular (C330) requiring CIFs to continue applying the content of the measures under the ES MA Decision on CFDs irrespective of its deadline lapsing, until such time when CyNPIMs are introduced. 3. FEEDBACK RECEIVED ON THE PROPOSED MEASURES ON CFDS AND CySEC’S POSITION CySEC proposed the prohibition of the marketing, distribution or sale of CFDs to retail clients, unless they meet the following criteria. 3.1. LEVERAGE LIMITS 3.1.1. The ESMA Decision on CFDs introduced leverage limits on the opening of a position by a retail client from 30:1 to 2:1, which vary according to the volatility of the underlying10, namely:  30:1 for major currency pairs;  20:1 for non-major currency pairs, gold and major indices;  10:1 for commodities other than gold and non-major equity indices;  5:1 for individual equities and other reference values;  2:1 for cryptocurrencies. 10 Fore definitions see the ESMA Decision on CFDs.
+CySEC ACTIONS FOLLOWING THE IMPLEMENTATION OF THE 10. ESMA MEASURES
 
-3.1.2. The ESMA Decision on CFDs did not distinguish between different su bcategories of retail clients. 3.1.3. CySEC proposed under CP -02-2019 the introduction of a risk -based approach on leverage, based on which tier of Target Market the retail client falls. 3.1.4. Specifically CySEC proposed:  Retail clients falling within the grey area of target market to pay the following initial margin protection of the notional value of the CFD (i.e. leverage limits): Type of Underlying CySEC Proposal ESMA’s Threshold Initial Margin Protection Leverage Limit Initial Margin Protection Leverage Limit Major Currency Pairs 5% 20:1 3,33% 30:1 Non-major currency pairs, gold and major indices 10% 10:1 5% 20:1 Commodities other than gold and non -major equity index 20% 5:1 10% 10:1 For individual equities and other reference values; 50% 2:1 20% 5:1 Crypto assets 100% 1:1 50% 2:1  Retail clients falling within the positive target market to pay the following initial margin protection of the notional value of the CFD (i.e. leverage limits): Type of Underlying CySEC Proposal ESMA Limits Initial Margin Protection Leverage Limit Initial Margin Protection Leverage Limit Major Currency Pairs 3,33% 30:1 3,33% 30:1 Non-major currency pairs, gold and major indices 5% 20:1 5% 20:1 Commodities other than gold 10% 10:1 10% 10:1
+3. FEEDBACK RECEIVED ON THE PROPOSED MEASURES ON CFDS AND 11. CySEC’S POSITION
 
-and non -major equity index For individual equities and other reference values; 20% 5:1 20% 5:1 Crypto assets 100% 1:1 50% 2:1  Retail clients falling within the upper tier of positive target market to pay the following initial margin protection of the notional value of the CFD (i.e. leverage limits): Type of Underlying CySEC Proposal ESMA Limits Initial Margin Protection Leverage Limit Initial Margin Protection Leverage Limit Major Currency Pairs 2% 50:1 3,33% 30:1 Non-major currency pairs, gold and major indices 3,33% 30:1 5% 20:1 Commodities other than gold and non -major equity index 5% 20:1 10% 10:1 For individual equities and other reference values; 10% 10:1 20% 5:1 Crypto Assets 50% 2:1 50% 2:1 3.1.5. CySEC also consulted o n the minimum criteria for retails client to be considered to fall within the upper tier of positive target market. 3.1.6. Interested parties were requested to provide their feedback on the following questions:
+3.1 LEVERAGE LIMITS 11.
 
-SUMMARY OF COMMENTS IN RELATION TO QUESTIONS 1-5 3.1.7. Question No 1 Do you agree with our proposal to adopt a risk -based approach on leverage in relation to CFDs? 3.1.8. A large proportion of the respondents inferred that they prefer the adoption of the same measures as those of ESMA and disagreed with the proposal to adopt a riskbased approach on leverage , raising practical difficulties in obtaining written evidence in order to categorise a retail client as ‘upper tier of positive target market’, creating undue complications and confusion , as well as additiona l costs during the client onboarding process. Question 1: Do you agree with our proposal to adopt a risk-based approach on leverage in relation to CFDs? Question 2: Do you agree with CySEC’s proposal to prohibit the marketing distribution and sale of leveraged CFDs on crypto assets to retail clients unless they fall within the upper tier of positive target market? Question 3: Do you agree with the leverage limits proposed for the clients falling within the grey area of target market? Question 4: Do you agree with the leverage limits proposed for the clients falling within the positive target market? Question 5: Do you agree with the minimum criteria set for considering a retail client to fall within the upper tier of positive target market?
+SUMMARY OF COMMENTS IN RELATION TO QUESTIONS 1-5 14.
 
-3.1.9. One respondent raised the following: i the loss suffered by CFD investors is mainly caused by unauthorised CFD providers; ii the direct connection between leverage limits and the loss suffered by the clients may not be quite accurate; iii the imposition of leverage limits will lead investors to unauthorised firms, since investors request high leverage; iv unleveraged financial instruments record the same losses for day traders. 3.1.10. A limited number of respondents proposed alternative solutions such as: i To allow clients that fall within the “grey area of target market” to choose the same leverage level as the one proposed by ESMA, providing there is a limit to the amount they are able to invest in per semester, and, ii To increase the leverage limits. Several respondents queried on the scope of CyNPIMs especially in case that different measures are implemented by the Member States of origin and host Member States and asked guidance for laying down the term ‘grey area of the target market’, in order to have a uniform implementation of CyNPIMs by the market. 3.1.11. Question No 2 Do you agree with CySEC’s proposal to prohibit the marketing distribution and sale of leveraged CFDs on crypto assets to retail clients unless they fall within the upper tier of positive target market? 3.1.12. The majority of respondents disagreed with the proposal to prohibit the marketing distribution and sale of leveraged CFDs on crypto assets, for the following reasons: i The proposed leverage 1:1, as well as any further deleveraging in general, will push clients to buy crypto assets directly which are offered through non - regulated entities and thus will result in exposing consumers to higher risks; ii The Leverage limit 1:2 set out by ESMA is already very low and provides sufficient protection to investors; iii It implies complex and impractical procedures for their implementation. 3.1.13. One respondent who disagreed with the proposal noted that the proposed restriction will result in rendering unauthorised CFD providers the only c hoice of investors who want to invest in leveraged CFDs on Crypto Assets.
+CySEC’S POSITION 18.
 
-3.1.14. One respondent who agreed with the proposal highlighted the need for defining the “grey area of the target market”, for consistency purposes of the implementation of the Measures by the market. Otherwise, the respondent proposed the adoption of ESMA measures. 3.1.15. Question No 3 Do you agree with the leverage limits proposed for the clients falling within the grey area of target market? 3.1.16. The majority of respondents disagreed with the lev erage limits proposed for the clients falling within the ‘grey area’, raising practical implementation reservations. 3.1.17. One of the respondents who disagreed noted that the proposal might increase the cost for investors who shall pay a higher margin in case they want to invest in various CFDs with a different underlying asset. 3.1.18. Several respondents who disagreed proposed alternative solutions that in their view are more appropriate. 3.1.19. Several respondents who agreed with the proposal indicated the importance of defining of “grey area of target market” for a universal and uniform implementation of the Measures by the market. 3.1.20. Question No 4 Do you agree with the leverage limits proposed for the clients falling within the positive target market? 3.1.21. The majority of respondents disagreed with the leverage limits proposed for the clients falling within the “positive target market ”. The majority of them disagreed with the difference between the leverage limit and the ESMA limit in relation to CFDs on Crypto Assets, i.e. 1:1 instead of 1:2. Their arguments were the same as the ones referred to in the previous questions. 3.1.22. Question No 5 Do you agree with the minimum criteria set for considering a retail client to fall within the upper tier of positive target market?
+3.2 MARGIN CLOSE OUT PROTECTION 19.
 
-3.1.23. A large proportion of respondents disagreed with the minimum criteria set for considering a retail client to fall within the “upper tier of positive market”, raising inter alia the following: i the proposed deviation from the ESMA measures will create confusion to the investors and there are practical difficulties in implementing such criteria; ii the criteria and procedure proposed are disproportionate as they are similar to those corresponding to elective professional clients, whilst the deviation in relation to the additional leverage is miniscule; iii the criteria should be based on higher levels of knowledge and experience on leveraged products and not on the available income and assets; iv the investors’ categorisation as “upper tier of positive market”, should be made by the CFD provider during onboarding, where the provider receives the answers to the relevant tests under the legislation , without an explicit request from the client. 3.1.24. Several respondents who agreed with the proposed criteria raised the following: i the term ‘significant size’ needs to be clarified and specific examples should be given that will meet the income criteria and the net liquid assets, in order to avoid any categorization of retail clients based on an arbitrary interpretation of the terms ‘significant size’ and ‘net liquid assets’; ii a commentator mentioned that the request of written documentation for the clients’ experience on carrying out transactions, is not necessary since in their view the relevant conclusion emerges safely from the answer s to the r elevant appropriateness tests. iii Three (3) respondents who agreed with the proposal also proposed to increase leverage limits. Moreover, one (1) of these three (3) respondents proposed the following leverage limits for investors falling within the ‘upper tier of positive target market’: i. 1:100 for major currencies (default 1:50); ii. 1:50 for non-major currencies, gold and major indices (default 1:30); iii. 1:30 for merchandise other than gold and non -major indices (default 1:20); iv. 1:15 for shares (default 1:10). One (1) respondent proposed higher leverage limits up to 1:200.
+SUMMARY OF COMMENTS IN RELATION TO QUESTION 6 20.
 
-CYSEC’S POSITION 3.1.25. CySEC will no longer proceed with the proposal to introduce a risk -based approach to leverage restrictions. 3.1.26. In relation to the leverage limits for CFDs on Crypto Assets, it is noted that according to CySEC’s view, Derivatives on Crypto Assets allow investors in the absence of a legal framework governing the provision of services in crypto assets per se, to invest in the fluctuations of the underlying, in a more secure way. 3.1.27. Derivatives on Crypto Assets are provided by authorised and regulated firms that are obliged to abide by the EU legislation, inter alia in relation to the best execution, safeguarding of clients funds, management of conflict of interests, etc. 3.1.28. We are concerned that limiting leverage for CFDs on Crypto Assets further, it is likely to result in diverting consumers to crypto exchanges which are currently not subject to authorization and supervision . In this case and in the absence of a regulatory framework governing the operation of such crypto exchanges, we are concerned that our proposal might inadvertently result in exacerbating investors’ detriment rather than alleviating it and may provide opportunities for fraudulent or unregulated entities to be the only option for investors who want to trade in leveraged CFDs. 3.1.29. To this end, CySEC will adopt the same leverage limits as ESMA’s for all retail clients. Therefore retail clients will be required to pay at least the following initial margin protection of the notional value of the CFD (i.e. leverage limits): Type of Underlying Initial Margin Protection Leverage Limit Major Currency Pairs 3,33% 30:1 Non-major currency pairs, gold and major indices 5% 20:1 Commodities other than gold and non - major equity index 10% 10:1 For individual equities and other reference values; 20% 5:1 Crypto assets 50% 2:1
+CYSEC’S POSITION 20.
 
-3.1.30. CySEC has also took note of the requests for further clarifying the terms “grey area of Target Market” and “trades of significant size”. The specific terms are used in the ESMA Guidelines on MiFID II Product Governance Requirements and in MiFID II (elective professional status eligibility) respectively. We w ill therefore endeavor to ensure that further clarity is provided on these terms. In the meantime firms are urged to be cautious when determining the aforementioned terms which should be evaluated on a case by case basis and a conclusion should be reached on reasonable and demonstrable grounds. 3.2. MARGIN CLOSE-OUT PROTECTION 3.2.1. In relation to the margin close-out protection CySEC proposed under CP-02-2019 to adopt the same requirements as provided for in the ESMA Decision on CFDs. 3.2.2. CySEC believes that this is a reasonable measure to address the risks laid down in the recitals of the ESMA Decision on CFDs 3.2.3. CySEC therefore proposed the closure of one or more of a retail client's open CFDs on terms most favourable to the client in accordance with Articles 24 and 2 7 of Directive 2014/65/EU when the sum of funds in the CFD trading account and the unrealised net profits of all open CFDs connected to that account falls to less than half of the total initial margin protection for all those open CFDs (the “Margin CloseOut Protection). 3.2.4. Interested parties were requested to provide their feedback on the following question: Question 6: Do you agree with CySEC’s proposal to adopt a Margin-Close Protection requirement as the one adopted by ESMA?
+3.3 NEGATIVE BALANCE PROTECTION 20.
 
-SUMMARY OF COMMENTS IN RELATION TO QUESTION 6 3.2.5. The majority of respondents agreed with the proposal to adopt the margin close-out protection. 3.2.6. One (1) respondent disagreed and proposed that the margin close-out protection should be optional, without however producing any documentation to support their opinion. CYSEC’S POSITION 3.2.7. CySEC will proceed with a Margin-Close Protection requirement as the one adopted by ESMA. 3.2.8. Further clarifications in relation to the application of the Margin Close -Out Protection are provided in the ESMA Decision on CFDs and in the ESMA Q&As on Product Intervention and these clarifications are applicable in the case of C yNPIMs as well. 3.3. NEGATIVE BALANCE PROTECTION 3.3.1. CySEC proposed under CP-02-2019 to adopt the same requirements as provided for in the ESMA Decision on CFDs in relation to NBP. 3.3.2. CySEC believes that this is a reasonable measure to address the risks laid down in the recitals of the ESMA Decision on CFDs. 3.3.3. CySEC reiterates that NBP means the limit of a retail client's aggregate liability for all CFDs connected to a CFD trading account with a CFD provider to the funds in that CFD trading account (the “NBP Requirement”). 3.3.4. The NBP Requirement must be triggered whenever margin close -out protection cannot be effectively applied due to extreme market events affecting the underlying of the CFD in question. 3.3.5. Following the occurrence of such extreme events 11 , retail client s have owed considerably more than they invested, ending up with a negative balance on their 11 Recital (118) of the ESMA Decision.
+SUMMARY OF COMMENTS IN RELATION TO QUESTION 7 21.
 
-CFD trading account. To this end, Recital (119) of the ESMA Decision on CFDs provides that: “ The purpose of a negative balance protection is to ensure that an investor's maximum losses from trading CFDs, including all related costs, are limited to the total funds related to trading CFDs that are in the investor's CFD trading account. This should include any funds yet to be paid into that account due to net profits from the closure of open CFDs connected to that account. An investor should not incur any additional liability connected with its trading of CFDs. Other accounts should not be part of the investor's capital at risk. In case a trading account also includes other financial instruments (for example, UCITS or shares), only the funds explicitly dedicated to CFD trading, and not those dedicated to other financial instruments, are at risk”. 3.3.6. Interested parties were requested to provide their feedback on the follow ing question: SUMMARY OF COMMENTS IN RELATION TO QUESTION 7 3.3.7. The majority of respondents agreed with the adoption of an NBP. CYSEC’S POSITION 3.3.8. CySEC will proceed with an NBP Requirement as the one adopted by ESMA. 3.3.9. Further clarifications relating to t he application of the NBP Requirement are provided in the ESMA Decision on CFDs and in the ESMA Q&As on Product Intervention and these clarifications are applicable in the case CyNPIMs as well. 3.4. RESTRICTION ON THE INCENTIVES OFFERED TO TRADE CFDs 3.4.1. In order to address the risks emanating from incentivising retail clients to trade in CDFs by means of monetary or certain types non -monetary benefits (including by Question 7: Do you agree with CySEC’s proposal to adopt an NBP Requirement as the one adopted by ESMA?
+CySEC’S POSITION 21.
 
-providing bonuses), CySEC proposed under CP -02-2019 to adopt the same restrictions as ESMA on the incentives offered to clients. 3.4.2. Such incentives might result in distracting retail clients from the risk entailed and luring them into CFDs trading. 3.4.3. To this end, CySEC believes that the CFD providers should not directly or indirectly provide the retail cli ent with a payment, monetary or excluded non -monetary benefit in relation to the marketing, distribution or sale of a CFD, other than the realised profits on any CFD provided (the “Restrictions on the Incentives Offered to Trade CFDs”). 3.4.4. CySEC reiterates t hat “excluded non -monetary benefit ” means any non -monetary benefit other than, insofar as they relate to CFDs, information and research tools. 3.4.5. Further information on the risks that such incentives entail are provided in the ESMA Decision on CFDs. 3.4.6. Interested parties were requested to provide their feedback on the following question: SUMMARY OF COMMENTS IN RELATION TO QUESTION 8 3.4.7. The majority of respondents agreed with the adoption of Restrictions on the Incentives Offered to Trade CFDs as the ones adopted by ESMA. 3.4.8. A minority of respondents: i Disagreed and proposed the exemption of cash-back rebates and any loyalty plans, which do not encourage investors to deposit additional amounts of money or/and to conduct additional transactions in order to acquire them. Question 8: Do you agree with CySEC’s proposal to adopt Restrictions on the Incentives Offered to Trade CFDs as the ones adopted by ESMA?
+3.4 RESTRICTIONS ON THE INCENTIVES OFFERED TO TRADE CFDs 21.
 
-ii Enquired whether a tiered volume fee discount (as the one referred to in the FCA’s Policy Statement on Page 22, see here), where clients may benefit from lower transaction costs for new trades once the a specified trading volume has been reached, falls within the prohibition (the “Tiered Fees-Spreads”). CYSEC’S POSITION 3.4.9. CySEC will proceed with the adoption of Restrictions on the Incentives Offered to Trade CFDs as the ones adopted by ESMA. 3.4.10. In relation to Tiered Fees -Spreads, we share the FCA’s view that such fees are different from rebates in the sense that are embedded to the cost structure and clients do not receive rebates or discounts retrospectivel y for their p revious trades and thus this does no t entail incentivisation to trade to higher volumes. Therefore , we do not consider Tiered Fees-Spreads to fall within the scope of the prohibition. 3.4.11. Further clarification on the application of the Restrictions on the In centives Offered to Trade CFDs, are provided in the ESMA Decision on CFDs and in the ESMA Q&As on Product Intervention. 3.5. STANDARDISED RISK WARNINGS 3.5.1. Investors should be in a position to make informed decisions. Therefore, CySEC considers a standardised and effective risk warning that provides details in relation to the risks that CFD trading with the specific CFD provider entails to be particularly important to this end. 3.5.2. In performing its supervisory duties, CySEC has encountered cases were CFD providers did not adequately disclose the risks that such investments entail. Further information on the risks arising from this could be found in the ESMA Decision on CFDs. 3.5.3. In view of the above, CySEC proposed under CP-02-2019 a standardised risk warning as the one imposed by virtue of the ESMA Measures on CFDs. 3.5.4. Interested parties were requested to provide their feedback on the following question:
+SUMMARY OF COMMENTS IN RELATION TO QUESTION 8 22.
 
-SUMMARY OF COMMENTS IN RELATION TO QUESTION 9 3.5.5. The majority of respondents agreed with the adoption of Restrictions on the Incentives Offered to Trade CFDs as the ones adopted by ESMA. 3.5.6. One (1) respondent who agreed proposed that the calculation of the percentage of accounts with losses and the assessment of the content of the warnings should be carried out on an annual basis and not every three months and another one proposed to include the average loss/average gain of each retail client per account. 3.5.7. One (1) respondent disagreed with the proposal to adopt standardized Risk Warnings saying that this should be proportion al to the marketing intensity (aggressive marketing = strong warnings). CYSEC’S POSITION 3.5.8. CySEC does not share the view: i That an annual assessment of the content of the warning would provide up to date data to clients and prospective clients, in order to be able to make an informed decision; or ii That the marketing intensity is relevant to the content of the risk warning. 3.5.9. CySEC took note of the proposal to request that the risk warning includes details on the average loss/average gain of retail client pe r account. However in view of the fact that further clarity is needed as to the practical implementation and that such requirement is substantive and such option was not included in CP -02-2019, is in CySEC’s view premature to examine such option and its possible merits or risks. 3.5.10. In addition to the above, CySEC has also took note of the UK’s FCA and Austria’s Finanzmarktaufsichtsbehörde (FMA) approach, in relation to the content of the risk Question 9: Do you agree with CySEC’s proposal to adopt standardized Risk Warnings as the ones required by ESMA?
+CySEC’S POSITION 23.
 
-warning for new firms that do not have 12 months of retail client trading data. In CySEC’s view such warning reflects the risks of trading in CFDs in an equivalent manner without using data that might not be relevant for the firm in question. In addition to this, a predefined range as per the ESMA’s warning for newcomers will need to be constantly reevaluated by CySEC in order to ensure that it reflects the current conditions in the market on ongoing basis, rendering such risk warning administratively burdensome. To this end we believe that the risk warning we propose for newcomers is justified and proportionate. 3.5.11. In view of the above CySEC will proceed with adopting the same risk warning as ESMA’s, except for the case of new firms that do not have 12 months of retail client trading data where we request that the percenta ge range i s replaced with a reference stating that “ The vast majority of retail client accounts lose money when trading in CFDs” in the durable medium and webpage standard risk warning and in the abbreviated standard risk warning and with a reference stating that “‘CFD-retail client accounts generally lose mo ney” in the reduced character standard risk warning. 3.5.12. In particular, the CFD provider should not send directly or indirectly a communication to or publish information accessible by a retail client relat ing to the marketing, distribution or sale of a CFD unless it includes the appropriate risk warning specified by and complying with the conditions: SECTION A Risk warning conditions 1. The risk warning shall be in a layout ensuring its prominence, in a fon t size at least equal to the predominant font size and in the same language as that used in the communication or published information. 2. If the communication or published information is in a durable medium or a webpage, the risk warning shall be in the format specified in Section B. 3. If the communication or published information is in a medium other than a durable medium or a webpage, the risk warning shall be in the format specified in Section C. 4. By way of derogation to paragraphs 2 and 3, if the nu mber of characters contained in the risk warning in the format specified in Section B or C exceeds the character limit permitted in the standard terms of a third party marketing provider, the risk warning may instead be in the format specified in Section D.
+3.5 STANDARDISED RISK WARNINGS 23.
 
-5. If the risk warning in the format specified in Section D is used, the communication or published information shall also include a direct link to the webpage of the CFD provider containing the risk warning in the format specified in Section B. 6. The risk warning shall include an up -to-date provider-specific loss percentage based on a calculation of the percentage of CFD trading accounts provided to retail clients by the CFD provider that lost money. The calculation shall be performed every three mont hs and cover the 12 -month period preceding the date on which it is performed (‘12-month calculation period’). For the purposes of the calculation: a an individual retail client CFD trading account shall be considered to have lost money if the sum of all rea lised and unrealised net profits on CFDs connected to the CFD trading account during the 12 -month calculation period is negative; b any costs relating to the CFDs connected to the CFD trading account shall be included in the calculation, including all charges, fees and commissions; c the following items shall be excluded from the calculation: i any CFD trading account that did not have an open CFD connected to it within the calculation period; ii any profits or losses from products other than CFDs connected t o the CFD trading account; iii any deposits or withdrawals of funds from the CFD trading account. 7. By way of derogation from paragraphs 2 to 6, if in the last 12-month calculation period a CFD provider has not provided an open CFD connected to a retail client CFD trading account, that CFD provider shall use the standard risk warning in the format specified in Sections E to G, as appropriate. SECTION B Durable medium and webpage provider-specific risk warning CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. [insert percentage per provider ]% of retail investor accounts lose money when trading CFDs with this provider.
+SUMMARY OF COMMENTS IN RELATION TO QUESTION 9 24.
 
-You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. SECTION C Abbreviated provider-specific risk warning [insert percentage per provider]% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you can afford to t ake the high risk of losing your money. SECTION D Reduced character provider-specific risk warning [insert percentage per provider]% of retail CFD accounts lose money. SECTION E Durable medium and webpage standard risk warning CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. The vast majority of retail investor accounts lose money when trading CFDs. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. SECTION F Abbreviated standard risk warning The vast majority of retail investor accounts lose money when trading CFDs. You should consider whether you can afford to take the high risk of losing your money.
+CySEC’S POSITION 24.
 
-SECTION G Reduced character standard risk warning CFD-retail client accounts generally lose money 4. TERRITORIAL SCOPE OF CyNPIMS 5.1. Taking into account the requests for further clarity in relation to the cross border application of CyNPIMs, when firms dom iciled in Cyprus provide their services to residents of other Member S tates, CySEC decided to explicitly define the territorial scope of CyNPIMs. 5.2. CySEC has tailored CyNPIMs, in a way that enables incorporation of the content of the NPIMs taken by other NC As, where firms falling under CySEC’s competence market, distribute or sell such CFDs in the territory of another Member State. 5.3. The content of CyNPIMs is variable based on the country of residence of the client. Therefore where an entity falling under CySEC’s remit markets, distributes or sells CFDs to a resident of: i Cyprus, CyNPIMs will have their “Default Content”, namely the same as ESMA’s measures with the only difference the risk warning explained above. ii A Member State, where the NCA has introduced NPIMs, CyNPIMs will have the content of the measures taken by the NCA of the respective Member State. iii A Member State, where the NCA has not introduced NPIMs 12, CyNPIMs will have their Default Content. iv A third country, CyNPIMs will have their Default Content. 5.4. CySEC decided to adopt this territorial approach in relation to the provision of services on a cross border basis to residents of other Member States, as a consequence of the adoption of different measures by the NCAs across the Union. The MiFID II/MiFIR regime does not provide for the cases where NCAs have not adopted the same measures . To this end, any other approach is highly likely to be prone to interpretation and legal risks and to create confusi on amongst market participants. Our approach is justified and proportionate and will provide to the 12 This category also includes Member States where the NCA has issued individual decrees to firms rather than a general decree (e.g. Hungary).
+4. TERRITORIAL SCOPE OF CyNPIMS 28.
 
-residents of the specific Member State the same level of protection afforded to them by the measures introduced by the NCA of the respective Member State. 5. CONSULTATION WITH OTHER NCAs 5.1. Article 42 of MiFIR requires NCAs to consult “Member States that may be significantly affected by the action. ” Once CySEC decided on the content of CyNPIMs sought for feedback from all NCAs, even though it is highly unlikely any of the Member States to be significantly affected, in view of the territorial scope of CyNPIMs. 5.2. We received feedback from Germany’s BaFin and from and the Securities Market Agency of Slovenia (ATVP). BaFIN did not raise any concerns about CyNPIMs and ATVP commented on the equivalence of the risk warning for new firms that do not have 12 months of retail client trading data to the risk warning stated in the ESMA Decision 2019/679 (i.e. “Between 74 -89% of retail investor s”). ATVP mentioned that a risk warning stipulating that the majority of retail clients lose money would not be equivalent to ESMA’s risk warning for such cases, as a simple majority might correspond to 51%. 5.3. For the avoidance of doubt , CySEC requires such firms to state on the warning the following: “The vast majority of retail investor accounts lose money when trading CFDs ” in the durable medium and webpage standard risk warning and in the abbreviated standard risk warning and with a reference stating that “‘ CFD-retail client accounts generally lose money” in the reduced character standard risk warning. 5.4. We believe that the content of the above risk warning s is equivalent to the risk warning stated in the ESMA Decision 2019/679, as the references “vast majority” and “generally” correspond to a percentage well above 51%. To this end, the risk warning is justified and proportionate and addresses the concerns of ATVP. 6. CONSULTATION WITH THE PUBLIC BODIES COMPETENT FOR THE OVERSIGHT, ADMINISTRATION AND REGULATION OF PHYSICAL AGRICULTURAL MARKETS 6.1. Subparagraph (f) of Article 42(2) of MiFIR requires NCAs to consult with the public bodies competent for the oversight, administration and regulation of physical
+5. CONSULTATION WITH OTHER NCAs 29.
 
-agricultural markets under Regulation (EC) No 1234/2007 13, before imposing NPIMs under Article 42 of MiFIR. 6.2. CySEC informed the The Ministry of Agriculture, Natural Resources and Environment (the “Ministry”) accordingly and sought for the Ministry’s feedback. 6.3. The Ministry informed CySEC that there are no comments. 6.4. Based on the above CySEC concluded that there is not a serious threat to the orderly functioning and integrity of the phy sical agricultural market as: (i ) the national measures are the same as ESMA’s measures; (ii) ESMA consulted those bodies and they raised no objections to ESMA’s me asures and (iii) CySEC consulted the Ministry and no objections were raised. 13 Council Regulation (EC) No 1234/2007 of 22 October 2007 establishing a common organisation of agricultural markets and on specific provisions for certain agricultural products (Single CMO Regulation) (OJ L 299, 16.11.2007, p. 1).
+6. CONSULTATION WITH THE PUBLIC BODIES COMPETENT FOR THE 29. OVERSIGHT, ADMINISTRATION AND REGULATION OF PHYSICAL AGRICULTURAL MARKETS
+
+1. INTRODUCTION
+
+PURPOSE OF THIS POLICY STATEMENT
+
+1.1. The Cyprus Securities and Exchange Commission (“CySEC”) published a Consultation Paper on 30 May 2019 (“CP-02-2019”) regarding the proposed National Product Intervention Measures (“NPIMs”) in relation to the marketing, distribution and sale of Contracts For Differences (“CFDs”), to be taken pursuant to Article 42 of Regulation (EU) No 600/20141 (“MiFIR”). This Policy Statement summarises the feedback received in response to CP-02-2019 and contains CySEC’s final position on the matter by way of Directive DI87-09 which has been published in the Official Gazette of the Republic of Cyprus.
+
+1.2. The measures proposed by CySEC under CP-02-2019 were largely aligned with the European Securities and Markets Authority’s (“ESMA”) temporary product intervention measures which introduced restrictions on the marketing, distribution or sale of CFDs to retail clients in 2018. In addition, CySEC proposed a risk-based approach in relation to the leverage restrictions on CFDs.
+
+1.3. CySEC proposed to introduce stricter leverage limits for those retail clients falling within the grey area of the target market and slightly higher leverage limits for the retail clients falling within the upper tier of positive target market.
+
+1.4. Specifically, CySEC proposed under CP-02-2019 to introduce the following measures:  Limiting leverage to between 50:1 and 1:1, depending on the volatility of the underlying assets and the knowledge, wealth, risk appetite, objectives and needs of the respective retail client;
+
+ Introducing a margin close out, when the clients’ funds fall to 50% of the margin needed to maintain their open positions on their CFD account;
+
+ Introducing a negative balance protection per account basis, so that retail clients cannot lose more than the total funds in their trading account;
+
+ Prohibiting firms from offering cash or other inducements to encourage retail clients to trade; and,
+
+1 Regulation (EU) No 600/2014 of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Regulation (EU) No 648/2012.
+
+ Requiring firms to provide standardised risk warnings informing potential customers of the percentage of their retail client accounts which make losses.
+
+1.5. CySEC received feedback from fifteen (15) respondents comprised of Investment Firms, one Industry Association, one National Competent Authority2 (“NCA”) of another Member State and one retail investor. The retail investor requested CySEC to reconsider its approach and to refrain from introducing any measures particularly in relation to leverage. The NCA raised concerns in relation to the proposed divergence from ESMA measures under CP-02-2019, particularly in relation to whether such divergence will create confusion amongst residents of the specific Member State as to the content of restrictions that are applicable to them.
+
+1.6. In our view, the introduction of national measures is necessary for the protection of retail investors and therefore we do not consider the approach proposed by the retail investor to be justified.
+
+1.7. In relation to the concerns raised by the NCA, CySEC shares the concerns in relation to the cross-border application of measures and the confusion that might be created by the adoption of different measures across the Union by the NCAs. To this end, we believe that the most appropriate way forward is to structure our measures in a way that incorporates the content of the measures taken by other NCAs when firms falling under our remit market, distribute or sell CFDs in the territory of such Member States (for more information please refer to Chapter 4 of this Policy Statement).
+
+1.8. Chapter 3 summarises the rest of the responses per question, CySEC’s position and the content of Cyprus National Product Intervention Measures (“CyNPIMs”).
+
+DEFINITIONS
+
+1.9. For the purposes of this Policy Statement, the terms referred to in paragraphs 1.10 – 1.16, shall have the meaning ascribed to them by the paragraphs below.
+
+1.10. “contract for differences” or “CFD” means a derivative other than an option, future, swap or forward rate agreement, the purpose of which is to give the holder a long or short exposure to fluctuations in the price, level or value of an underlying, irrespective of whether it is traded on a trading venue, and that must be settled in cash or may be settled in cash at the option of one of the parties other than by reason of default or other termination event.
+
+2 COMISIÓN NACIONAL DEL MERCADO DE VALORES of Spain (CNMV).
+
+1.11. “excluded non-monetary benefit” means any non-monetary benefit other than, insofar as they relate to CFDs, information and research tools.
+
+1.12. “initial margin” means any payment for the purpose of entering into a CFD, excluding commission, transaction fees and any other related costs.
+
+1.13. “initial margin protection” means the initial margin that retail clients will be required to pay in accordance with CySEC’s measures.
+
+1.14. “margin close-out protection” means the closure of one or more of a retail client's open CFDs on terms most favourable to the client in accordance with Articles 24 and 27 of Directive 2014/65/EU when the sum of funds in the CFD trading account and the unrealised net profits of all open CFDs connected to that account falls to less than half of the total initial margin protection for all those open CFDs.
+
+1.15. “negative balance protection” means the limit of a retail client's aggregate liability for all CFDs connected to a CFD trading account with a CFD provider to the funds in that CFD trading account.
+
+1.16. Where the meaning of the terms referred to in paragraphs 1.9 - 1.15, or the meaning of other terms mentioned in this Policy Statement, is further clarified in: i The ESMA Decision to temporarily restrict contracts for differences in the Union3 and the renewals thereof (the “ESMA Decision on CFDs”); or
+
+ii The ESMA Questions and Answers on ESMA’s temporary product intervention measures on the marketing, distribution or sale of CFDs and Binary options to retail clients, as amended from time to time (the “ESMA Q&As on Product Intervention”), such clarifications apply to these terms.
+
+1.17. Where a term is not otherwise defined herein shall take the meaning provided for in the Investment Services and Activities and Regulated Markets Law of 2017 (the “Law”)4.
+
+3 EUROPEAN SECURITIES AND MARKETS AUTHORITY DECISION (EU) 2018/796 of 22 May 2018 to temporarily restrict contracts for differences in the Union in accordance with Article 40 of Regulation (EU) No 600/2014 of the European Parliament and of the Council
+
+4 Transposing Directive 2014/65/EU of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Directive 2002/92/EC and Directive 2011/61/EU, into national Law.
+
+WHO THIS CONCERNS
+
+1.18. This Policy Statement concerns the entities that market, distribute or sell CFDs, in or from the Republic of Cyprus to retail investors.
+
+1.19. The entities collaborating with the persons referred to in the previous paragraph will also be permanently affected in the way described in CySEC’s Policy Statement on the Risk Management Arrangements of CIFs that provide investment services in CFDs (“PS-01-2019”).
+
+1.20. Retail investors will also be impacted by this Policy Statement.
+
+2. RATIONALE FOR SUPERVISORY ACTION
+
+BACKGROUND INFORMATION
+
+2.1. CySEC supervises a significant number of CIFs engaging in the provision of investment services in complex financial instruments, particularly in CFDs. The aforesaid CIFs provide their services in the Republic of Cyprus but also in other Member States or third countries, either on a cross-border basis or through the establishment of a branch. According to CySEC’s records on cross-border notifications, 2,157 entities domiciled in other Member States are allowed to provide their services in the Republic of Cyprus on a cross-border basis, 580 of which their authorisation includes the provision of services in CFDs.
+
+2.2. The compliance of CIFs with their regulatory obligations has consistently been a key supervisory priority, as reflected in CySEC’s annual Supervisory Action Plans. CySEC’s actions were further intensified since 2015, where practices that raised concerns for investor protection were observed.
+
+2.3. Particularly in the context of supervisory audits, CySEC has observed that CIFs providing investment services in CFDs were engaging in aggressive marketing techniques and did not provide adequate information in relation to the risks involved, thus not allowing retail clients to fully understand the risks entailed and make an informed decision about their respective investment(s).
+
+2.4. CIFs were also found to be providing trading benefits to retail clients (in the form of a bonus or otherwise) via their marketing strategies, aiming to attract and encourage retail clients to trade in CFDs. Given the complexity that such products entail, such trading benefits encouraged behaviours that are not in the best interests of clients.
+
+2.5. CySEC also observed that CIFs providing investment services in CFDs were providing excessive levels of leverage (in some cases exceeding 1:500). Whilst leverage can increase the possible profit for clients, it can also increase the possible losses, resulting in losing more than the invested amount (i.e. resulting in negative balances in the retail client trading accounts) as a consequence of a fluctuation in the price of the underlying instrument.
+
+2.6. Investors’ detriment stemming from the above risks was confirmed by an analysis that CySEC conducted on a sample of CFD client accounts. Specifically, the analysis was conducted on a sample of 18 major CFD providers for the period from 1 January 2017 to 31 August 2017. The analysis revealed that 76% of client accounts made an overall loss over the period, with around 24% of client accounts in profit.
+
+2.7. Similar findings were reported by other NCAs of the European Economic Area (“EEA”) in relation to the provision of investment services in CFDs.
+
+2.8. The characteristics and the risks that CFDs entail are further elaborated in the recitals of the ESMA Decisions on CFDs and in the ESMA Product Intervention Analysis in relation to the measures on CFDs.
+
+CySEC’S ACTIONS PRIOR TO THE IMPLEMENTATION OF THE ESMA MEASURES
+
+2.9. In view of the above, CySEC issued a series of circulars5 addressed to CIFs, which provided guidelines to the supervised entities for their compliance with the regulatory framework. These guidelines, included, inter alia, a) a requirement to modify their systems so as to have a predetermined leverage limit of 1:50 for all non- professional clients, which a client can change to a higher limit if he/she so desires; b) the requirement to protect investors from negative balance protection per account basis; c) a ban on the provision of bonuses encouraging retail clients to invest in complex financial instruments; and, d) guidelines for the proper management of conflicts of interest.
+
+2.10. CySEC has also conducted a series of audits and investigations since 2015 in relation to CIFs providing investment services in CFDs. The audits revealed serious misconduct by a number of CFD providers, resulting in the imposition of administrative sanctions6 both to the CIFs and to natural persons employed by them. Furthermore, where appropriate, CySEC revoked the authorization of CIFs and
+
+5 See: https://www.cysec.gov.cy/en-GB/public-info/circulars/supervised/investment-firms/
+
+6See: https://www.cysec.gov.cy/en-GB/public-info/decisions/
+
+referred the cases to the Attorney-General of the Republic of Cyprus for further action.
+
+ESMA MEASURES
+
+2.11. In 2015, an ESMA CFDs Task Force (the “Task Force”) was established in which CySEC participates to examine and coordinate a European-wide response to action relating to the provision of investment services in this type of financial instruments.
+
+2.12. As a result of the Task Force’s action, ESMA issued a series of questions and answers concerning the provision of investment services in CFDs and other speculative products. Taking into account the risks posed by these services and products and its proven detrimental impact on investor protection, ESMA introduced temporary product intervention measures, pursuant to MiFIR, by virtue of the ESMA Decision on CFDs.
+
+2.13. The ESMA measures in relation to CFDs included the following:
+
+i Leverage limits on the opening of a position by a retail client from 30:1 to 2:1, which vary according to the volatility of the underlying instrument; ii A margin close-out rule on a per account basis. This aimed to standardise the percentage of margin (at 50% of minimum required margin) at which providers are required to close out one or more retail client’s open CFDs; iii Negative balance protection on a per account basis (“NBP”); iv A restriction on the incentives offered to trade CFDs; and, v A standardised risk warning, including the percentage of losses on a CFD provider’s retail investor accounts.
+
+2.14. The ESMA Decisions on CFDs was renewed three times7. ESMA has also agreed on the exclusion of a limited number of products from the scope of the measure8 and on the introduction of a reduced character standardized risk warning, where there are character limitations by the third-party marketing provider.
+
+2.15. ESMA decided to not proceed with further renewals of its measures in relation to CFDs, resulting in the measures lapsing on 1 August 2019.
+
+7 See: https://www.esma.europa.eu/policy-activities/mifid-ii-and-investor-protection/product-intervention
+
+8See: https://www.esma.europa.eu/press-news/esma-news/esma-renew-prohibition-binary-options-furtherthree-months
+
+CYSEC ACTIONS FOLLOWING THE IMPLEMENTATION OF THE ESMA MEASURES
+
+2.16. CySEC has prioritised the effective implementation of the ESMA Decisions on CFDs and Binary Options including the implementation of the NBP requirement by CIFs under CySEC’s supervision. In view of the fact that a similar measure was already in place in Cyprus governing CIFs’ compliance at CySEC’s own initiative, CySEC conducted a market-wide review of how CIFs providing investment services in CFDs have restructured their business model in order to address the implication of NBP.
+
+2.17. As a consequence, CySEC enforced the restructuring of the market risk transfer arrangements of certain types of CFD CIFs and imposed additional capital requirement to the CIFs that engage in market risk transfer activities or transact for their own benefit in CFDs - with entities domiciled in countries that do not have, or are unlikely to have, an adequate prudential regime. To this end, CySEC issued a Policy Statement on the Risk Management Arrangements of CIFs that provide investment services in CFDs on 4 February 2019 (“PS 01-2019”).
+
+PS-01-2019 provides for the following:
+
+ CIFs providing investment services in CFDs (“CFD CIFs”), which operate under a licence providing for the initial capital of €125.0009 (“125k CFD CIF”), were required to restructure their market risk transfer arrangements in order to ensure that the third party to whom they transfer the market risk assumes responsibility for the Negative Balances that might appear in the trading account of a retail client of the 125k CFD CIF; and,
+
+ Where a CFD CIF, irrespectively of its initial capital requirements or type of clients has market risk transfer arrangements in place and/or engages in CFDs trading for its own benefit (if this is permissible under the type of their authorisation), with entities domiciled in non-EEA jurisdictions that are not
+
+i Credit institutions; or ii Investment Firms,
+
+domiciled in a third country for which there is an equivalent decision for the purposes of Article 107(4) of Regulation (EU) No 575/201316 or which is a member of the G20, were required to maintain an additional capital buffer of the highest quality of the CIF’s capital (Common Equity Tier 1 capital). This
+
+9 The initial capital of article 10(2)2 of the Investment Services and Activities and Regulated Markets Laws of 2007 to 2016, the provisions of which have been grandfathered under Article 104(2) of the Law.
+
+additional capital requirement had to be equal to the higher value of either a) €2.000.000, or b) 2% of the Investment Firms’ total risk exposure.
+
+2.18. As part of its supervision, CySEC monitors client categorisation and onboarding processes in order to ensure that CIFs will not allow clients to reclassify as elective professional investors, where the criteria provided for in the Law are not met in order to avoid the scope of the measures.
+
+2.19. The audit and investigation in relation to the compliance of CIFs that provide investment services in CFDs are ongoing and cover several areas of the regulatory framework, aiming to ensure that investor protection is not put at risk of compromise.
+
+2.20. In view of the ESMA decision to not proceed with further renewals of its measures in relation to CFDs, CySEC issued a Circular (C330) requiring CIFs to continue applying the content of the measures under the ESMA Decision on CFDs irrespective of its deadline lapsing, until such time when CyNPIMs are introduced.
+
+3. FEEDBACK RECEIVED ON THE PROPOSED MEASURES ON CFDS AND CySEC’S POSITION
+
+CySEC proposed the prohibition of the marketing, distribution or sale of CFDs to retail clients, unless they meet the following criteria.
+
+3.1. LEVERAGE LIMITS
+
+3.1.1. The ESMA Decision on CFDs introduced leverage limits on the opening of a position by a retail client from 30:1 to 2:1, which vary according to the volatility of the underlying10, namely:
+
+ 30:1 for major currency pairs;  20:1 for non-major currency pairs, gold and major indices;  10:1 for commodities other than gold and non-major equity indices;  5:1 for individual equities and other reference values;  2:1 for cryptocurrencies.
+
+10 Fore definitions see the ESMA Decision on CFDs.
+
+3.1.2. The ESMA Decision on CFDs did not distinguish between different subcategories of retail clients.
+
+3.1.3. CySEC proposed under CP-02-2019 the introduction of a risk-based approach on leverage, based on which tier of Target Market the retail client falls.
+
+3.1.4. Specifically CySEC proposed:
+
+ Retail clients falling within the grey area of target market to pay the following initial margin protection of the notional value of the CFD (i.e. leverage limits):
+
+Type of CySEC Proposal ESMA’s Threshold Underlying Initial Leverage Initial Leverage Margin Limit Margin Limit Protection Protection Major Currency 5% 20:1 3,33% 30:1 Pairs Non-major currency pairs, 10% 10:1 5% 20:1 gold and major indices Commodities other than gold 20% 5:1 10% 10:1 and non-major equity index For individual equities and other 50% 2:1 20% 5:1 reference values; Crypto assets 100% 1:1 50% 2:1
+
+ Retail clients falling within the positive target market to pay the following initial margin protection of the notional value of the CFD (i.e. leverage limits):
+
+Type of CySEC Proposal ESMA Limits Underlying Initial Leverage Initial Leverage Margin Limit Margin Limit Protection Protection Major Currency 3,33% 30:1 3,33% 30:1 Pairs Non-major currency pairs, 5% 20:1 5% 20:1 gold and major indices Commodities 10% 10:1 10% 10:1 other than gold
+
+and non-major equity index For individual equities and other 20% 5:1 20% 5:1 reference values; Crypto assets 100% 1:1 50% 2:1
+
+ Retail clients falling within the upper tier of positive target market to pay the following initial margin protection of the notional value of the CFD (i.e. leverage limits):
+
+Type of CySEC Proposal ESMA Limits Underlying Initial Leverage Initial Leverage Margin Limit Margin Limit Protection Protection Major Currency 2% 50:1 3,33% 30:1 Pairs Non-major currency pairs, 3,33% 30:1 5% 20:1 gold and major indices Commodities other than gold 5% 20:1 10% 10:1 and non-major equity index For individual equities and 10% 10:1 20% 5:1 other reference values; Crypto Assets 50% 2:1 50% 2:1
+
+3.1.5. CySEC also consulted on the minimum criteria for retails client to be considered to fall within the upper tier of positive target market.
+
+3.1.6. Interested parties were requested to provide their feedback on the following questions:
+
+Question 1: Do you agree with our proposal to adopt a risk-based approach on leverage in relation to CFDs?
+
+Question 2: Do you agree with CySEC’s proposal to prohibit the marketing distribution and sale of leveraged CFDs on crypto assets to retail clients unless they fall within the upper tier of positive target market?
+
+Question 3: Do you agree with the leverage limits proposed for the clients falling within the grey area of target market?
+
+Question 4: Do you agree with the leverage limits proposed for the clients falling within the positive target market?
+
+Question 5: Do you agree with the minimum criteria set for considering a retail client to fall within the upper tier of positive target market?
+
+SUMMARY OF COMMENTS IN RELATION TO QUESTIONS 1-5
+
+3.1.7. Question No 1
+
+Do you agree with our proposal to adopt a risk-based approach on leverage in relation to CFDs?
+
+3.1.8. A large proportion of the respondents inferred that they prefer the adoption of the same measures as those of ESMA and disagreed with the proposal to adopt a risk- based approach on leverage, raising practical difficulties in obtaining written evidence in order to categorise a retail client as ‘upper tier of positive target market’, creating undue complications and confusion, as well as additional costs during the client onboarding process.
+
+3.1.9. One respondent raised the following:
+
+i the loss suffered by CFD investors is mainly caused by unauthorised CFD providers; ii the direct connection between leverage limits and the loss suffered by the clients may not be quite accurate; iii the imposition of leverage limits will lead investors to unauthorised firms, since investors request high leverage; iv unleveraged financial instruments record the same losses for day traders.
+
+3.1.10. A limited number of respondents proposed alternative solutions such as:
+
+i To allow clients that fall within the “grey area of target market” to choose the same leverage level as the one proposed by ESMA, providing there is a limit to the amount they are able to invest in per semester, and, ii To increase the leverage limits.
+
+Several respondents queried on the scope of CyNPIMs especially in case that different measures are implemented by the Member States of origin and host Member States and asked guidance for laying down the term ‘grey area of the target market’, in order to have a uniform implementation of CyNPIMs by the market.
+
+3.1.11. Question No 2
+
+Do you agree with CySEC’s proposal to prohibit the marketing distribution and sale of leveraged CFDs on crypto assets to retail clients unless they fall within the upper tier of positive target market?
+
+3.1.12. The majority of respondents disagreed with the proposal to prohibit the marketing distribution and sale of leveraged CFDs on crypto assets, for the following reasons:
+
+i The proposed leverage 1:1, as well as any further deleveraging in general, will push clients to buy crypto assets directly which are offered through non- regulated entities and thus will result in exposing consumers to higher risks; ii The Leverage limit 1:2 set out by ESMA is already very low and provides sufficient protection to investors; iii It implies complex and impractical procedures for their implementation.
+
+3.1.13. One respondent who disagreed with the proposal noted that the proposed restriction will result in rendering unauthorised CFD providers the only choice of investors who want to invest in leveraged CFDs on Crypto Assets.
+
+3.1.14. One respondent who agreed with the proposal highlighted the need for defining the “grey area of the target market”, for consistency purposes of the implementation of the Measures by the market. Otherwise, the respondent proposed the adoption of ESMA measures.
+
+3.1.15. Question No 3
+
+Do you agree with the leverage limits proposed for the clients falling within the grey area of target market?
+
+3.1.16. The majority of respondents disagreed with the leverage limits proposed for the clients falling within the ‘grey area’, raising practical implementation reservations.
+
+3.1.17. One of the respondents who disagreed noted that the proposal might increase the cost for investors who shall pay a higher margin in case they want to invest in various CFDs with a different underlying asset.
+
+3.1.18. Several respondents who disagreed proposed alternative solutions that in their view are more appropriate.
+
+3.1.19. Several respondents who agreed with the proposal indicated the importance of defining of “grey area of target market” for a universal and uniform implementation of the Measures by the market.
+
+3.1.20. Question No 4
+
+Do you agree with the leverage limits proposed for the clients falling within the positive target market?
+
+3.1.21. The majority of respondents disagreed with the leverage limits proposed for the clients falling within the “positive target market”. The majority of them disagreed with the difference between the leverage limit and the ESMA limit in relation to CFDs on Crypto Assets, i.e. 1:1 instead of 1:2. Their arguments were the same as the ones referred to in the previous questions.
+
+3.1.22. Question No 5
+
+Do you agree with the minimum criteria set for considering a retail client to fall within the upper tier of positive target market?
+
+3.1.23. A large proportion of respondents disagreed with the minimum criteria set for considering a retail client to fall within the “upper tier of positive market”, raising inter alia the following:
+
+i the proposed deviation from the ESMA measures will create confusion to the investors and there are practical difficulties in implementing such criteria; ii the criteria and procedure proposed are disproportionate as they are similar to those corresponding to elective professional clients, whilst the deviation in relation to the additional leverage is miniscule; iii the criteria should be based on higher levels of knowledge and experience on leveraged products and not on the available income and assets; iv the investors’ categorisation as “upper tier of positive market”, should be made by the CFD provider during onboarding, where the provider receives the answers to the relevant tests under the legislation, without an explicit request from the client.
+
+3.1.24. Several respondents who agreed with the proposed criteria raised the following:
+
+i the term ‘significant size’ needs to be clarified and specific examples should be given that will meet the income criteria and the net liquid assets, in order to avoid any categorization of retail clients based on an arbitrary interpretation of the terms ‘significant size’ and ‘net liquid assets’; ii a commentator mentioned that the request of written documentation for the clients’ experience on carrying out transactions, is not necessary since in their view the relevant conclusion emerges safely from the answers to the relevant appropriateness tests. iii Three (3) respondents who agreed with the proposal also proposed to increase leverage limits. Moreover, one (1) of these three (3) respondents proposed the following leverage limits for investors falling within the ‘upper tier of positive target market’:
+
+i. 1:100 for major currencies (default 1:50); ii. 1:50 for non-major currencies, gold and major indices (default 1:30); iii. 1:30 for merchandise other than gold and non-major indices (default 1:20); iv. 1:15 for shares (default 1:10).
+
+One (1) respondent proposed higher leverage limits up to 1:200.
+
+CYSEC’S POSITION
+
+3.1.25. CySEC will no longer proceed with the proposal to introduce a risk-based approach to leverage restrictions.
+
+3.1.26. In relation to the leverage limits for CFDs on Crypto Assets, it is noted that according to CySEC’s view, Derivatives on Crypto Assets allow investors in the absence of a legal framework governing the provision of services in crypto assets per se, to invest in the fluctuations of the underlying, in a more secure way.
+
+3.1.27. Derivatives on Crypto Assets are provided by authorised and regulated firms that are obliged to abide by the EU legislation, inter alia in relation to the best execution, safeguarding of clients funds, management of conflict of interests, etc.
+
+3.1.28. We are concerned that limiting leverage for CFDs on Crypto Assets further, it is likely to result in diverting consumers to crypto exchanges which are currently not subject to authorization and supervision. In this case and in the absence of a regulatory framework governing the operation of such crypto exchanges, we are concerned that our proposal might inadvertently result in exacerbating investors’ detriment rather than alleviating it and may provide opportunities for fraudulent or unregulated entities to be the only option for investors who want to trade in leveraged CFDs.
+
+3.1.29. To this end, CySEC will adopt the same leverage limits as ESMA’s for all retail clients. Therefore retail clients will be required to pay at least the following initial margin protection of the notional value of the CFD (i.e. leverage limits):
+
+Type of Underlying Initial Margin Leverage Limit Protection Major Currency Pairs 3,33% 30:1 Non-major currency pairs, gold and major 5% 20:1 indices Commodities other than gold and non- 10% 10:1 major equity index For individual equities and other reference 20% 5:1 values; Crypto assets 50% 2:1
+
+3.1.30. CySEC has also took note of the requests for further clarifying the terms “grey area of Target Market” and “trades of significant size”. The specific terms are used in the ESMA Guidelines on MiFID II Product Governance Requirements and in MiFID II (elective professional status eligibility) respectively. We will therefore endeavor to ensure that further clarity is provided on these terms. In the meantime firms are urged to be cautious when determining the aforementioned terms which should be evaluated on a case by case basis and a conclusion should be reached on reasonable and demonstrable grounds.
+
+3.2. MARGIN CLOSE-OUT PROTECTION
+
+3.2.1. In relation to the margin close-out protection CySEC proposed under CP-02-2019 to adopt the same requirements as provided for in the ESMA Decision on CFDs.
+
+3.2.2. CySEC believes that this is a reasonable measure to address the risks laid down in the recitals of the ESMA Decision on CFDs
+
+3.2.3. CySEC therefore proposed the closure of one or more of a retail client's open CFDs on terms most favourable to the client in accordance with Articles 24 and 27 of Directive 2014/65/EU when the sum of funds in the CFD trading account and the unrealised net profits of all open CFDs connected to that account falls to less than half of the total initial margin protection for all those open CFDs (the “Margin Close- Out Protection).
+
+3.2.4. Interested parties were requested to provide their feedback on the following question:
+
+Question 6: Do you agree with CySEC’s proposal to adopt a Margin-Close Protection requirement as the one adopted by ESMA?
+
+SUMMARY OF COMMENTS IN RELATION TO QUESTION 6
+
+3.2.5. The majority of respondents agreed with the proposal to adopt the margin close-out protection.
+
+3.2.6. One (1) respondent disagreed and proposed that the margin close-out protection should be optional, without however producing any documentation to support their opinion.
+
+CYSEC’S POSITION
+
+3.2.7. CySEC will proceed with a Margin-Close Protection requirement as the one adopted by ESMA.
+
+3.2.8. Further clarifications in relation to the application of the Margin Close-Out Protection are provided in the ESMA Decision on CFDs and in the ESMA Q&As on Product Intervention and these clarifications are applicable in the case of CyNPIMs as well.
+
+3.3. NEGATIVE BALANCE PROTECTION
+
+3.3.1. CySEC proposed under CP-02-2019 to adopt the same requirements as provided for in the ESMA Decision on CFDs in relation to NBP.
+
+3.3.2. CySEC believes that this is a reasonable measure to address the risks laid down in the recitals of the ESMA Decision on CFDs.
+
+3.3.3. CySEC reiterates that NBP means the limit of a retail client's aggregate liability for all CFDs connected to a CFD trading account with a CFD provider to the funds in that CFD trading account (the “NBP Requirement”).
+
+3.3.4. The NBP Requirement must be triggered whenever margin close-out protection cannot be effectively applied due to extreme market events affecting the underlying of the CFD in question.
+
+3.3.5. Following the occurrence of such extreme events 11 , retail clients have owed considerably more than they invested, ending up with a negative balance on their
+
+11 Recital (118) of the ESMA Decision.
+
+CFD trading account. To this end, Recital (119) of the ESMA Decision on CFDs provides that: “The purpose of a negative balance protection is to ensure that an investor's maximum losses from trading CFDs, including all related costs, are limited to the total funds related to trading CFDs that are in the investor's CFD trading account. This should include any funds yet to be paid into that account due to net profits from the closure of open CFDs connected to that account. An investor should not incur any additional liability connected with its trading of CFDs. Other accounts should not be part of the investor's capital at risk. In case a trading account also includes other financial instruments (for example, UCITS or shares), only the funds explicitly dedicated to CFD trading, and not those dedicated to other financial instruments, are at risk”.
+
+3.3.6. Interested parties were requested to provide their feedback on the following question:
+
+Question 7: Do you agree with CySEC’s proposal to adopt an NBP Requirement as the one adopted by ESMA?
+
+SUMMARY OF COMMENTS IN RELATION TO QUESTION 7
+
+3.3.7. The majority of respondents agreed with the adoption of an NBP.
+
+CYSEC’S POSITION
+
+3.3.8. CySEC will proceed with an NBP Requirement as the one adopted by ESMA.
+
+3.3.9. Further clarifications relating to the application of the NBP Requirement are provided in the ESMA Decision on CFDs and in the ESMA Q&As on Product Intervention and these clarifications are applicable in the case CyNPIMs as well.
+
+3.4. RESTRICTION ON THE INCENTIVES OFFERED TO TRADE CFDs
+
+3.4.1. In order to address the risks emanating from incentivising retail clients to trade in CDFs by means of monetary or certain types non-monetary benefits (including by
+
+providing bonuses), CySEC proposed under CP-02-2019 to adopt the same restrictions as ESMA on the incentives offered to clients.
+
+3.4.2. Such incentives might result in distracting retail clients from the risk entailed and luring them into CFDs trading.
+
+3.4.3. To this end, CySEC believes that the CFD providers should not directly or indirectly provide the retail client with a payment, monetary or excluded non-monetary benefit in relation to the marketing, distribution or sale of a CFD, other than the realised profits on any CFD provided (the “Restrictions on the Incentives Offered to Trade CFDs”).
+
+3.4.4. CySEC reiterates that “excluded non-monetary benefit” means any non-monetary benefit other than, insofar as they relate to CFDs, information and research tools.
+
+3.4.5. Further information on the risks that such incentives entail are provided in the ESMA Decision on CFDs.
+
+3.4.6. Interested parties were requested to provide their feedback on the following question:
+
+Question 8: Do you agree with CySEC’s proposal to adopt Restrictions on the Incentives Offered to Trade CFDs as the ones adopted by ESMA?
+
+SUMMARY OF COMMENTS IN RELATION TO QUESTION 8
+
+3.4.7. The majority of respondents agreed with the adoption of Restrictions on the Incentives Offered to Trade CFDs as the ones adopted by ESMA.
+
+3.4.8. A minority of respondents:
+
+i Disagreed and proposed the exemption of cash-back rebates and any loyalty plans, which do not encourage investors to deposit additional amounts of money or/and to conduct additional transactions in order to acquire them.
+
+ii Enquired whether a tiered volume fee discount (as the one referred to in the FCA’s Policy Statement on Page 22, see here), where clients may benefit from lower transaction costs for new trades once the a specified trading volume has been reached, falls within the prohibition (the “Tiered Fees-Spreads”).
+
+CYSEC’S POSITION
+
+3.4.9. CySEC will proceed with the adoption of Restrictions on the Incentives Offered to Trade CFDs as the ones adopted by ESMA.
+
+3.4.10. In relation to Tiered Fees-Spreads, we share the FCA’s view that such fees are different from rebates in the sense that are embedded to the cost structure and clients do not receive rebates or discounts retrospectively for their previous trades and thus this does not entail incentivisation to trade to higher volumes. Therefore, we do not consider Tiered Fees-Spreads to fall within the scope of the prohibition.
+
+3.4.11. Further clarification on the application of the Restrictions on the Incentives Offered to Trade CFDs, are provided in the ESMA Decision on CFDs and in the ESMA Q&As on Product Intervention.
+
+3.5. STANDARDISED RISK WARNINGS
+
+3.5.1. Investors should be in a position to make informed decisions. Therefore, CySEC considers a standardised and effective risk warning that provides details in relation to the risks that CFD trading with the specific CFD provider entails to be particularly important to this end.
+
+3.5.2. In performing its supervisory duties, CySEC has encountered cases were CFD providers did not adequately disclose the risks that such investments entail. Further information on the risks arising from this could be found in the ESMA Decision on CFDs.
+
+3.5.3. In view of the above, CySEC proposed under CP-02-2019 a standardised risk warning as the one imposed by virtue of the ESMA Measures on CFDs.
+
+3.5.4. Interested parties were requested to provide their feedback on the following question:
+
+Question 9: Do you agree with CySEC’s proposal to adopt standardized Risk Warnings as the ones required by ESMA?
+
+SUMMARY OF COMMENTS IN RELATION TO QUESTION 9
+
+3.5.5. The majority of respondents agreed with the adoption of Restrictions on the Incentives Offered to Trade CFDs as the ones adopted by ESMA.
+
+3.5.6. One (1) respondent who agreed proposed that the calculation of the percentage of accounts with losses and the assessment of the content of the warnings should be carried out on an annual basis and not every three months and another one proposed to include the average loss/average gain of each retail client per account.
+
+3.5.7. One (1) respondent disagreed with the proposal to adopt standardized Risk Warnings saying that this should be proportional to the marketing intensity (aggressive marketing = strong warnings).
+
+CYSEC’S POSITION
+
+3.5.8. CySEC does not share the view:
+
+i That an annual assessment of the content of the warning would provide up to date data to clients and prospective clients, in order to be able to make an informed decision; or
+
+ii That the marketing intensity is relevant to the content of the risk warning.
+
+3.5.9. CySEC took note of the proposal to request that the risk warning includes details on the average loss/average gain of retail client per account. However in view of the fact that further clarity is needed as to the practical implementation and that such requirement is substantive and such option was not included in CP-02-2019, is in CySEC’s view premature to examine such option and its possible merits or risks.
+
+3.5.10. In addition to the above, CySEC has also took note of the UK’s FCA and Austria’s Finanzmarktaufsichtsbehörde (FMA) approach, in relation to the content of the risk
+
+warning for new firms that do not have 12 months of retail client trading data. In CySEC’s view such warning reflects the risks of trading in CFDs in an equivalent manner without using data that might not be relevant for the firm in question. In addition to this, a predefined range as per the ESMA’s warning for newcomers will need to be constantly reevaluated by CySEC in order to ensure that it reflects the current conditions in the market on ongoing basis, rendering such risk warning administratively burdensome. To this end we believe that the risk warning we propose for newcomers is justified and proportionate.
+
+3.5.11. In view of the above CySEC will proceed with adopting the same risk warning as ESMA’s, except for the case of new firms that do not have 12 months of retail client trading data where we request that the percentage range is replaced with a reference stating that “The vast majority of retail client accounts lose money when trading in CFDs” in the durable medium and webpage standard risk warning and in the abbreviated standard risk warning and with a reference stating that “‘CFD-retail client accounts generally lose money” in the reduced character standard risk warning.
+
+3.5.12. In particular, the CFD provider should not send directly or indirectly a communication to or publish information accessible by a retail client relating to the marketing, distribution or sale of a CFD unless it includes the appropriate risk warning specified by and complying with the conditions:
+
+SECTION A
+
+Risk warning conditions
+
+1. The risk warning shall be in a layout ensuring its prominence, in a font size at least equal to the predominant font size and in the same language as that used in the communication or published information.
+
+2. If the communication or published information is in a durable medium or a webpage, the risk warning shall be in the format specified in Section B.
+
+3. If the communication or published information is in a medium other than a durable medium or a webpage, the risk warning shall be in the format specified in Section C.
+
+4. By way of derogation to paragraphs 2 and 3, if the number of characters contained in the risk warning in the format specified in Section B or C exceeds the character limit permitted in the standard terms of a third party marketing provider, the risk warning may instead be in the format specified in Section D.
+
+5. If the risk warning in the format specified in Section D is used, the communication or published information shall also include a direct link to the webpage of the CFD provider containing the risk warning in the format specified in Section B.
+
+6. The risk warning shall include an up-to-date provider-specific loss percentage based on a calculation of the percentage of CFD trading accounts provided to retail clients by the CFD provider that lost money. The calculation shall be performed every three months and cover the 12-month period preceding the date on which it is performed (‘12-month calculation period’). For the purposes of the calculation: a an individual retail client CFD trading account shall be considered to have lost money if the sum of all realised and unrealised net profits on CFDs connected to the CFD trading account during the 12-month calculation period is negative; b any costs relating to the CFDs connected to the CFD trading account shall be included in the calculation, including all charges, fees and commissions; c the following items shall be excluded from the calculation: i any CFD trading account that did not have an open CFD connected to it within the calculation period; ii any profits or losses from products other than CFDs connected to the CFD trading account; iii any deposits or withdrawals of funds from the CFD trading account.
+
+7. By way of derogation from paragraphs 2 to 6, if in the last 12-month calculation period a CFD provider has not provided an open CFD connected to a retail client CFD trading account, that CFD provider shall use the standard risk warning in the format specified in Sections E to G, as appropriate.
+
+SECTION B
+
+Durable medium and webpage provider-specific risk warning
+
+CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage.
+
+[insert percentage per provider ]% of retail investor accounts lose money when trading CFDs with this provider.
+
+You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+
+SECTION C
+
+Abbreviated provider-specific risk warning
+
+[insert percentage per provider]% of retail investor accounts lose money when trading CFDs with this provider.
+
+You should consider whether you can afford to take the high risk of losing your money.
+
+SECTION D
+
+Reduced character provider-specific risk warning
+
+[insert percentage per provider]% of retail CFD accounts lose money.
+
+SECTION E
+
+Durable medium and webpage standard risk warning
+
+CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage.
+
+The vast majority of retail investor accounts lose money when trading CFDs.
+
+You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.
+
+SECTION F
+
+Abbreviated standard risk warning
+
+The vast majority of retail investor accounts lose money when trading CFDs.
+
+You should consider whether you can afford to take the high risk of losing your money.
+
+SECTION G
+
+Reduced character standard risk warning
+
+CFD-retail client accounts generally lose money
+
+4. TERRITORIAL SCOPE OF CyNPIMS
+
+5.1. Taking into account the requests for further clarity in relation to the cross border application of CyNPIMs, when firms domiciled in Cyprus provide their services to residents of other Member States, CySEC decided to explicitly define the territorial scope of CyNPIMs.
+
+5.2. CySEC has tailored CyNPIMs, in a way that enables incorporation of the content of the NPIMs taken by other NCAs, where firms falling under CySEC’s competence market, distribute or sell such CFDs in the territory of another Member State.
+
+5.3. The content of CyNPIMs is variable based on the country of residence of the client. Therefore where an entity falling under CySEC’s remit markets, distributes or sells CFDs to a resident of: i Cyprus, CyNPIMs will have their “Default Content”, namely the same as ESMA’s measures with the only difference the risk warning explained above. ii A Member State, where the NCA has introduced NPIMs, CyNPIMs will have the content of the measures taken by the NCA of the respective Member State. iii A Member State, where the NCA has not introduced NPIMs12, CyNPIMs will have their Default Content. iv A third country, CyNPIMs will have their Default Content.
+
+5.4. CySEC decided to adopt this territorial approach in relation to the provision of services on a cross border basis to residents of other Member States, as a consequence of the adoption of different measures by the NCAs across the Union. The MiFID II/MiFIR regime does not provide for the cases where NCAs have not adopted the same measures. To this end, any other approach is highly likely to be prone to interpretation and legal risks and to create confusion amongst market participants. Our approach is justified and proportionate and will provide to the
+
+12 This category also includes Member States where the NCA has issued individual decrees to firms rather than a general decree (e.g. Hungary).
+
+residents of the specific Member State the same level of protection afforded to them by the measures introduced by the NCA of the respective Member State.
+
+5. CONSULTATION WITH OTHER NCAs
+
+5.1. Article 42 of MiFIR requires NCAs to consult “Member States that may be significantly affected by the action.” Once CySEC decided on the content of CyNPIMs sought for feedback from all NCAs, even though it is highly unlikely any of the Member States to be significantly affected, in view of the territorial scope of CyNPIMs.
+
+5.2. We received feedback from Germany’s BaFin and from and the Securities Market Agency of Slovenia (ATVP). BaFIN did not raise any concerns about CyNPIMs and ATVP commented on the equivalence of the risk warning for new firms that do not have 12 months of retail client trading data to the risk warning stated in the ESMA Decision 2019/679 (i.e. “Between 74-89% of retail investors”). ATVP mentioned that a risk warning stipulating that the majority of retail clients lose money would not be equivalent to ESMA’s risk warning for such cases, as a simple majority might correspond to 51%.
+
+5.3. For the avoidance of doubt, CySEC requires such firms to state on the warning the following:
+
+“The vast majority of retail investor accounts lose money when trading CFDs” in the durable medium and webpage standard risk warning and in the abbreviated standard risk warning and with a reference stating that “‘CFD-retail client accounts generally lose money” in the reduced character standard risk warning.
+
+5.4. We believe that the content of the above risk warnings is equivalent to the risk warning stated in the ESMA Decision 2019/679, as the references “vast majority” and “generally” correspond to a percentage well above 51%. To this end, the risk warning is justified and proportionate and addresses the concerns of ATVP.
+
+6. CONSULTATION WITH THE PUBLIC BODIES COMPETENT FOR THE OVERSIGHT, ADMINISTRATION AND REGULATION OF PHYSICAL AGRICULTURAL MARKETS
+
+6.1. Subparagraph (f) of Article 42(2) of MiFIR requires NCAs to consult with the public bodies competent for the oversight, administration and regulation of physical
+
+agricultural markets under Regulation (EC) No 1234/200713, before imposing NPIMs under Article 42 of MiFIR.
+
+6.2. CySEC informed the The Ministry of Agriculture, Natural Resources and Environment (the “Ministry”) accordingly and sought for the Ministry’s feedback.
+
+6.3. The Ministry informed CySEC that there are no comments.
+
+6.4. Based on the above CySEC concluded that there is not a serious threat to the orderly functioning and integrity of the physical agricultural market as: (i) the national measures are the same as ESMA’s measures; (ii) ESMA consulted those bodies and they raised no objections to ESMA’s measures and (iii) CySEC consulted the Ministry and no objections were raised.
+
+13 Council Regulation (EC) No 1234/2007 of 22 October 2007 establishing a common organisation of agricultural markets and on specific provisions for certain agricultural products (Single CMO Regulation) (OJ L 299, 16.11.2007, p. 1).

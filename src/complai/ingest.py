@@ -16,15 +16,27 @@ _PAGE_NUMBER = re.compile(r"\n\s*\d{1,3}\s*\n")
 _MULTI_BLANK = re.compile(r"\n{3,}")
 _INLINE_WS = re.compile(r"[ \t]+")
 
+# Restore the document's own structure: numbered paragraphs (3.5.12.) and the
+# lettered warning-template headings (SECTION B) each start a new block. Without
+# this the whole policy statement collapses into a few unreadable walls of text,
+# which costs rule-extraction quality and makes the committed artifact unreviewable.
+# Both require real whitespace before the marker. A zero-width match would fire
+# *inside* "3.5.12." (at the boundary before "5.12.") and split the numbering.
+_PARA_MARKER = re.compile(r"\s+(?=\d{1,2}\.\d{1,2}(?:\.\d{1,2})?\.[ \t])")
+_SECTION_HEADING = re.compile(r"\s+(?=SECTION [A-G]\b)")
+
 
 def normalise(raw: str) -> str:
     """Repair PDF text extraction artefacts without altering wording.
 
     Mandated warning text is quoted verbatim in rules, so this must not
-    rewrite words — only rejoin hyphenated breaks and collapse whitespace.
+    rewrite words — only rejoin hyphenated breaks, restore paragraph
+    boundaries, and collapse whitespace.
     """
     text = _HYPHEN_BREAK.sub(r"\1\2", raw)
     text = _PAGE_NUMBER.sub("\n\n", text)
+    text = _SECTION_HEADING.sub("\n\n", text)
+    text = _PARA_MARKER.sub("\n\n", text)
     text = _MULTI_BLANK.sub("\n\n", text)
     paragraphs = [
         _INLINE_WS.sub(" ", para.replace("\n", " ")).strip()
@@ -34,10 +46,18 @@ def normalise(raw: str) -> str:
 
 
 def extract_pdf_text(path: Path) -> str:
+    """Extract with pypdf's layout mode.
+
+    Layout mode is not cosmetic here: the default mode inserts stray spaces
+    inside words in this document's justified narrative text ("fon t size",
+    "lose mo ney"), and rules quote those passages verbatim.
+    """
     from pypdf import PdfReader
 
     reader = PdfReader(str(path))
-    return normalise("\n\n".join(page.extract_text() or "" for page in reader.pages))
+    return normalise(
+        "\n\n".join(page.extract_text(extraction_mode="layout") or "" for page in reader.pages)
+    )
 
 
 def fetch_pdf(url: str, dest: Path) -> Path:
