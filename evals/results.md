@@ -42,3 +42,47 @@ What this harness caught, in order
 
 Item 4 is the one worth dwelling on: the harness caught an error in its own ground
 truth, not in the system under test.
+
+Model comparison — Sonnet 5 vs Opus 5
+-------------------------------------
+Same 8 cases, same rulebook, one run each. `COMPLAI_MODEL` selects the model.
+
+| model          | gate | recall | precision |
+|----------------|------|--------|-----------|
+| claude-sonnet-5 | 8/8  | 1.00   | 0.41      |
+| claude-opus-5   | 8/8  | 0.71   | 0.50      |
+
+Opus 5 is the more precise checker and the less complete one: it flagged fewer
+rules overall, which lifted precision but let two expected violations through.
+
+**Sonnet 5 stays the default, and the reason is the task, not the price.** In
+compliance, a missed violation and a spurious one are not symmetric costs: the
+first is regulatory exposure, the second is a reviewer spending ten seconds
+dismissing a card. A tool that silently clears non-compliant copy is worse than
+one that over-flags, so recall is the metric to protect. Sonnet 5 also happens
+to be cheaper ($3/$15 per Mtok vs $5/$25), which makes this an easy call rather
+than a trade-off.
+
+Caveat, and it matters: this is ONE run over EIGHT cases. Both models are
+non-deterministic and the gap is well within what that could produce. Read it as
+directional evidence that the more expensive model is not automatically better
+here — not as a measured ranking. Anyone rerunning this should expect different
+numbers.
+
+Prompt caching
+--------------
+The rulebook and screening prompt are byte-identical on every check and total
+~6,000 tokens; only the submitted text varies. They are sent as a separate
+content block with a cache breakpoint at its end, so the submission stays
+outside the cached prefix.
+
+Measured across three consecutive checks:
+
+    call 1: uncached_in=66   cache_write=6015  cache_read=0
+    call 2: uncached_in=70   cache_write=0     cache_read=6015
+    call 3: uncached_in=69   cache_write=0     cache_read=6015
+
+Cache reads bill at ~0.1x input and the write at ~1.25x, so this pays for itself
+on the second check and cuts input cost roughly 90% thereafter. An eval run (8
+checks), a revision loop (up to 4 screens), and any UI session all clear that bar
+easily; a single one-off check does not, and pays a 25% premium instead.
