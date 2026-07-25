@@ -120,6 +120,27 @@ selects which rules apply. If filtering leaves fewer than three rules the checke
 reverts to the full rulebook and says so, because a gate misfire should degrade into
 over-checking, never a silent all-clear.
 
+**The rulebook is sent as a cached prefix.** The screening prompt and rulebook are
+byte-identical on every check and total ~6,000 tokens; only the submitted copy varies. They
+go in their own content block with the cache breakpoint at its end, so the submission stays
+*outside* the cached prefix — putting them in one block would make every submission write a
+fresh entry and never hit. Measured across three consecutive checks: 6,015 tokens written
+once, then read on both subsequent calls with ~70 uncached each. It pays for itself on the
+second check and cuts input cost roughly 90% after that. An eval run (8 checks), a revision
+loop (up to 4 screens), and any UI session all clear that bar; a single cold one-off check
+does not, and pays a ~25% write premium instead.
+
+**Sonnet 5 over Opus 5 — measured, not assumed.** `COMPLAI_MODEL` switches the model, so the
+eval harness can answer this empirically. Over the same 8 cases, Opus 5 scored precision 0.50
+/ recall 0.71 against Sonnet 5's 0.41 / 1.00: it flagged less, which bought precision at the
+cost of letting two expected violations through. **That is the wrong trade for compliance.**
+A missed violation is regulatory exposure; a spurious one costs a reviewer ten seconds
+dismissing a card. Recall is the metric to protect, and Sonnet 5 is also cheaper ($3/$15 per
+Mtok vs $5/$25). Caveat stated plainly: one run, eight cases, two non-deterministic models —
+the gap is within what noise alone could produce. It is directional evidence that the pricier
+model is not automatically better here, not a measured ranking. Rerun it yourself with
+`COMPLAI_MODEL=claude-opus-5 python -m evals.run_eval`.
+
 **Streamlit over a bespoke frontend.** The brief says UI isn't graded. More to the
 point, the realistic version of this task is: brief in the morning, something to argue
 about by lunch. Streamlit costs ~20 minutes; a hand-built frontend costs an hour or more
@@ -272,7 +293,7 @@ Built with Claude Code, and the process is in the repo rather than described aft
 fact: the design spec and implementation plan are committed under `docs/superpowers/`
 before any code exists, and the git history follows them task by task.
 
-Test-driven throughout — 64 tests, none of which make a network call. All LLM access
+Test-driven throughout — 65 tests, none of which make a network call. All LLM access
 goes through one narrow `LLMClient` protocol, so every module is testable with a fake
 and the model-dependent behaviour is covered by the eval harness instead of by mocked
 assertions about model judgement, which test nothing.
